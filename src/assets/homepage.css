@@ -1,0 +1,197 @@
+div {
+    display: block;
+}
+.homepage {
+    /* display: flex; */
+    width: 100%;
+    box-shadow: 0 1px 2px 0 #cccccc;
+    position: relative;
+    background-color: #ffffff;
+    padding: 10px 16px;
+    margin-bottom: 1em;
+}
+
+.upperhome {
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 147px;
+}
+
+.lefthome {
+    /* width: 70%; */
+    width: 65%;
+    margin-right: 2%;
+    padding-bottom: 5px;
+    /* display: flex; */
+}
+
+.righthome{
+    width: 35%
+}
+
+.fitur {
+    display: flex;
+    align-items: stretch;
+
+}
+
+row:after, .row:before {
+    content: " ";
+    display: table;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.row:after, .row:before {
+    content: " ";
+    display: table;
+}
+
+body {
+    font-family: Lato,sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+body, html {
+    font-size: 100%;
+}
+
+body {
+    background: #fff;
+    color: #282828;
+    cursor: auto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 13px;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 92.308em;
+    width: 100%;
+}
+
+.homepage .row {
+    margin-bottom: 1em;
+}
+
+.travelitem {
+    width: 33% !important;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+.paymentitem {
+    width: 14% ;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+.icons {
+    height: 42px;
+    position: relative;
+}
+
+.splitter {
+    width: 1px;
+    /* height: 1500px; */
+    height: 100%;
+    background-color: #e6e7e7;
+    margin-right: 2%;
+}
+
+.lowerhome {
+    height: 300px;
+    /* width: 100%; */
+}
+
+.slide {
+    height: 300px;
+    width: 100%;
+}
+
+.each-slide {
+    height: 300px;
+}
+
+.uppersmall {
+    margin-bottom: 1em;
+    display: flex;
+    /* width: 100%; */
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0 2px 4px 0 #cccccc;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bigger {
+    width: 40px;
+    height: 40px;
+}
+
+.smaller {
+    width: 24px;
+    height: 24px;
+}
+
+.features {
+    display: flex;
+    color: #f37021;
+    /* width: 12%; */
+    flex: 0.8;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.customer {
+    color: #0095da;
+    /* width: 28%; */
+    flex: 0.2;
+}
+
+.customer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0px 10px;
+}
+
+.features div{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    margin: 0px 10px;
+}
+.features img{
+    margin: 0px 5px;
+}
