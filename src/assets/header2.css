@@ -72,7 +72,8 @@ p img{
 }
 .garis3-a {
     vertical-align: middle;
-    color: #333;
+    color: rgb(56, 56, 56);
+    font-size: 11px;
 }
 .bag img {
     position: absolute;
