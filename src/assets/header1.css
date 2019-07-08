@@ -19,6 +19,12 @@
 
 }
 
+.bantuan {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #7a7a7a!important;
+}
+
 ul {
   display: inline;
   margin: 0;
@@ -33,11 +39,27 @@ ul li ul {
   width: 200px;
   height: 120px;
   display: none;
-  box-shadow: 0px 2px 10px grey;
+  box-shadow: 0px 2px 5px grey;
+}
+.dwn{
+    margin-top: 400px;
+   padding-left: 40px;
+}
+ul li ul li {
+    margin-left: 20px;
+    margin-top: 30px;
 }
 ul li ul li img {
-    height: 50px;
-    width: 50px;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+}
+
+ul li ul li a {
+    text-decoration: none;
+    margin: auto;
+    color: blue;
+
 }
 
 .left-header{
