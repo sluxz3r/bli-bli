@@ -2,6 +2,7 @@
     background-color:#f5f5f5;
     height: 20px;
     padding: 5px;
+
 }
 
 .mobile {
@@ -19,6 +20,27 @@
 
 }
 
+.bantuan {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #7a7a7a!important;
+}
+
+.bantuan-ul {
+    height: 250px;
+    margin-left: 0px;
+}
+
+.bantuan-1 {
+    margin-bottom: 50px;
+  
+}
+
+.bantuan-a {
+    text-decoration: none;
+    color: #7a7a7a!important;
+}
+
 ul {
   display: inline;
   margin: 0;
@@ -33,11 +55,30 @@ ul li ul {
   width: 200px;
   height: 120px;
   display: none;
-  box-shadow: 0px 2px 10px grey;
+  background-color: white;
+  box-shadow: 0px 2px 5px grey;
+  margin-left: 0px;
+  z-index: 10000000000;
+}
+.dwn{
+    margin-top: 400px;
+   padding-left: 40px;
+}
+ul li ul li {
+    margin-left: 20px;
+    margin-top: 30px;
 }
 ul li ul li img {
-    height: 50px;
-    width: 50px;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+}
+
+ul li ul li a {
+    text-decoration: none;
+  
+    color: blue;
+
 }
 
 .left-header{

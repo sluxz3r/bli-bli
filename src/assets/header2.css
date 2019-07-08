@@ -1,0 +1,85 @@
+#header2{
+    box-shadow: 0px 0px 10px #cccccc;
+    padding: 30px 0px 1px 0px;
+    background: url(https://www.static-src.com/frontend/../s_images/blibli-bg-pattern.jpg);
+}
+p img{
+        position: absolute;
+    width: 100px;
+    height: 40px;
+    right: 1100px;
+    top: 50px;
+    left: 80px;
+}
+.garis3 {
+    position: absolute;
+    width: 41px;
+    height: 40px;
+    right: 1100px;
+    top: 40px;
+    left: 260px;
+    background: white;
+    border: 1px solid rgb(231, 231, 231);
+    outline: none;
+    cursor: pointer;
+}
+.garis3 img{
+    width: 20px;
+    margin-top: 4px;
+
+}
+.mtix p {
+    margin-left: 330px;
+    margin-top: 27px;
+    color: #797676;
+    font-size: 13px;
+}
+.giias p {
+    margin-left: 370px;
+    top: 75px;
+    color: #797676;
+    font-size: 13px;
+    position: absolute;
+}
+.wethe p {
+    margin-left: 418px;
+    top: 75px;
+    color: #797676;
+    font-size: 13px;
+    position: absolute;
+}
+.bag {
+    position: absolute;
+    top: 40px;
+    right: 390px;
+    width: 50px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    
+}
+.garis3-ul {
+    position: absolute;
+    left: 110px;
+    height: 530px;
+    top: 80px;
+    background-color: white;
+}
+.garis3-b {
+    color: rgb(85, 85, 241);
+    font-size: 15px;
+}
+.garis3-a {
+    vertical-align: middle;
+    color: rgb(56, 56, 56);
+    font-size: 11px;
+}
+.bag img {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    /* right: 380px; */
+    width: 50px;
+    height: 40px;
+}

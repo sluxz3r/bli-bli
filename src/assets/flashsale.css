@@ -1,0 +1,144 @@
+.con-flash {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.awal {
+   
+    height: 900px;
+
+}
+.con-flash1 {
+    padding: 10px 16px;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    background-image: url("https://www.static-src.com/siva/asset//10_2018/11QA_DesktopMobile_FlashSaleBackground_Default_1.png");
+}
+
+.con-flash2 {
+    justify-content: space-between;
+    width: 205px;
+    float: left;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    background-image: url("https://www.static-src.com/siva/asset//10_2018/11QA_DesktopMobile_FlashSaleBackground_Default_1.png");
+}
+
+.con-flash2 div {
+   
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.con-flash2 img {
+    height: 220px;
+    width: 100%;
+    background-color: white;
+}
+
+.con-flash2 p {
+    background-color: white;
+    margin: 1px 5px 10px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.price {
+    background-color: white;
+    color: #b12704;
+    font-weight: bold;
+    margin: 1px 5px 10px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.diskon{
+    background-color: white;
+    color: grey;
+    margin: 1px 5px 10px 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-decoration:line-through;
+}
+
+.persen {
+    background-color: white;
+    color: #b12704;
+    margin: 1px 1px 1px 1px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.list-harga{
+    color: red;
+}
+.text1{
+    padding: 0px 0px 0px 10px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+.full {
+    margin-left: 660px;
+    height: 40px;
+    width: 164px; 
+    background-color: white;
+    color:#0096D9;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: transparent;
+}
+
+.timer {
+    font-size: 22pt;
+    margin-top: -4px;
+    margin-left: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid #999;
+    padding: 0px 10px 0px 10px;
+    border-radius: 6px;
+    
+}
+.con-flash1 img {
+    height: 38px;
+    width: 32px;
+}
+
+
+.atas {
+    float: left;
+    height: 60px;
+    width: 280px;
+    margin-right: 0px;
+}
+
+.atas p {
+    font-weight: bold;
+    font-size: 16pt;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.atas-1{
+    float: left;
+    height: 60px;
+    width: 280px;
+    margin-right: 0px;
+}
+
+.atas-2 {
+    height: 60px;
+    width: 20px; 
+    margin-right: 0px;  
+}
+
