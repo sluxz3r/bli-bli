@@ -1,0 +1,62 @@
+.category {
+    position: relative;
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+.cat-header {
+    background-color: white;
+    cursor: pointer;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cat-header span {
+    padding-top: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+.cat-header button {
+    background-color: white;
+    height: 40px;
+    width: 164px; 
+    color:#0096D9;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 2px solid #0096D9;
+   
+}
+
+.cat-div {
+    background-color: white;
+}
+
+.cat-a{
+    text-decoration: none;
+    background-color: white;
+}
+  
+
+.cat-img{
+    margin: 10px 10px 10px 20px;
+    background-color: white;
+    cursor: pointer;
+    align-items: flex-start;
+    position: relative;
+    
+}
+
+.cat-text {
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 10pt;
+    color: black;
+    background-color: white;
+}
