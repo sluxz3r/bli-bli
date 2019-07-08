@@ -6,34 +6,43 @@ class Homepage extends Component {
     render() {
         return (
             <div className="homepage">
-                <div className="uppersmall">
-                    <div>
-                        <img src="https://www.static-src.com/frontend/static/img/usp-number-one.5ceacbe.png" />
-                        <span>Customer Satisfaction #1</span>
+                <div className="uppersmall row">
+                    <div className="customer">
+                        <img className="bigger" src="https://www.static-src.com/frontend/static/img/usp-number-one.5ceacbe.png" />
+                        Customer Satisfaction #1
                     </div>
-                    <div>
-                        <img src="https://www.static-src.com/frontend/static/img/usp-free-shipping.16dca2c.svg" />
-                        <span>Gratis Ongkir</span>
-                    </div>
-                    <div>
-                        <img src="https://www.static-src.com/frontend/static/img/usp-badge.fa19e2d.svg" />
-                        <span>100% orisinil</span>
-                    </div>
-                    <div>
-                        <img src="https://www.static-src.com/frontend/static/img/usp-return.d639c5c.svg" />
-                        <span>15 Hari Retur</span>
-                    </div>
-                    <div>
-                        <img src="https://www.static-src.com/frontend/static/img/usp-truck.887f6ed.svg" />
-                        <span>Pengiriman Cepat</span>
-                    </div>
-                    <div>
-                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICAgIDxnIGZpbGw9IiMwMDk1REEiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTEwLjgwOSA4Ljg5MmM3LjcwMy0yLjc3NSAxOC4yOTctMi43NzYgMjYtLjAwMXYxNC4wODhhMTcuOTA2IDE3LjkwNiAwIDAgMS05LjE1IDE1LjYyNmwtMy44NSAyLjE0My0zLjg0Ny0yLjE0M0ExNy45MDYgMTcuOTA2IDAgMCAxIDEwLjgxIDIyLjk4VjguODkyem0yOC43MjctMS40Yy0uMDEzLS4wNDUtLjAxLS4wOTYtLjAzLS4xNFY3LjM1Yy0uMDIzLS4wNTUtLjA2OS0uMDk0LS4wOTgtLjE0NC0uMDYzLS4xMDYtLjEyLS4yMTUtLjIwNS0uMzAxLS4wNTYtLjA1NS0uMTMxLS4wODYtLjE5NC0uMTMxLS4wODYtLjA2MS0uMTY0LS4xMy0uMjYzLS4xNy0uMDA0LS4wMDMtLjAwNi0uMDA3LS4wMTEtLjAwOS04LjY1LTMuNDU5LTIxLjIwNC0zLjQ1OS0yOS44NSAwbC0uMDEzLjAwOGMtLjA5LjAzNy0uMTYuMTAyLS4yNC4xNTYtLjA3Mi4wNDktLjE1My4wODUtLjIxNS4xNDYtLjA2Ny4wNjctLjEwNy4xNTQtLjE1OC4yMzMtLjA0OS4wNzEtLjExLjEzLS4xNDUuMjExbC0uMDAyLjAwNWMtLjAxNS4wMzctLjAxMi4wODItLjAyNS4xMi0uMDQ1LjE0LS4wODUuMjgxLS4wODYuNDI0TDggNy45MDRWMjIuOThjMCA3LjUwNyA0LjA2IDE0LjQ0IDEwLjU5OSAxOC4wOTNsNC41MjggMi41MjNhMS40MDcgMS40MDcgMCAwIDAgMS4zNjMgMGw0LjUzMi0yLjUyM2M2LjUzNy0zLjY1MyAxMC41OTgtMTAuNTg2IDEwLjU5OC0xOC4wOTNWNy45MDRsLS4wMDEtLjAwNmMtLjAwMS0uMTM4LS4wNC0uMjcyLS4wODMtLjQwNnoiLz4KICAgICAgICA8cGF0aCBkPSJNMjEuODIyIDMwLjQwMWwuMDYtLjAwMWMuNDQyLS4wMTcuODYtLjIyIDEuMTQ0LS41NTZMMzQuMTggMTYuNzc4Yy4yNzYtLjMyMy40MTItLjczNC4zOC0xLjE1OGExLjU5MSAxLjU5MSAwIDAgMC0xLjcwNi0xLjQ3Yy0uNDI1LjAzMS0uODEuMjI5LTEuMDg1LjU1MUwyMS43MzEgMjYuNDZsLTQuMzYzLTQuMzgyYTEuNTg3IDEuNTg3IDAgMCAwLTIuMjQ3IDAgMS42MDQgMS42MDQgMCAwIDAgMCAyLjI1NWw1LjU3NyA1LjZhMS41OSAxLjU5IDAgMCAwIDEuMTI0LjQ2OHoiLz4KICAgIDwvZz4KPC9zdmc+Cg==" />
-                        <span>Pembayaran Aman</span>
-                    </div>
-                    <div>
-                        <img src="https://www.static-src.com/frontend/static/img/usp-call.c0c0663.svg" />
-                        <span>24/7 Customer Service</span>
+                
+                    <div className="features">
+                        <div>
+                            <img className="smaller" src="https://www.static-src.com/frontend/static/img/usp-free-shipping.16dca2c.svg" />
+                            Gratis Ongkir
+                            {/* <span className="features"></span> */}
+                        </div>
+                        <div>
+                            <img className="smaller" src="https://www.static-src.com/frontend/static/img/usp-badge.fa19e2d.svg" />
+                            100% orisinil
+                            {/* <span></span> */}
+                        </div>
+                        <div>
+                            <img className="smaller" src="https://www.static-src.com/frontend/static/img/usp-return.d639c5c.svg" />
+                            15 Hari Retur
+                            {/* <span></span> */}
+                        </div>
+                        <div>
+                            <img className="smaller" src="https://www.static-src.com/frontend/static/img/usp-truck.887f6ed.svg" />
+                            Pengiriman Cepat
+                            {/* <span></span> */}
+                        </div>
+                        <div>
+                            <img className="smaller" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICAgIDxnIGZpbGw9IiMwMDk1REEiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTEwLjgwOSA4Ljg5MmM3LjcwMy0yLjc3NSAxOC4yOTctMi43NzYgMjYtLjAwMXYxNC4wODhhMTcuOTA2IDE3LjkwNiAwIDAgMS05LjE1IDE1LjYyNmwtMy44NSAyLjE0My0zLjg0Ny0yLjE0M0ExNy45MDYgMTcuOTA2IDAgMCAxIDEwLjgxIDIyLjk4VjguODkyem0yOC43MjctMS40Yy0uMDEzLS4wNDUtLjAxLS4wOTYtLjAzLS4xNFY3LjM1Yy0uMDIzLS4wNTUtLjA2OS0uMDk0LS4wOTgtLjE0NC0uMDYzLS4xMDYtLjEyLS4yMTUtLjIwNS0uMzAxLS4wNTYtLjA1NS0uMTMxLS4wODYtLjE5NC0uMTMxLS4wODYtLjA2MS0uMTY0LS4xMy0uMjYzLS4xNy0uMDA0LS4wMDMtLjAwNi0uMDA3LS4wMTEtLjAwOS04LjY1LTMuNDU5LTIxLjIwNC0zLjQ1OS0yOS44NSAwbC0uMDEzLjAwOGMtLjA5LjAzNy0uMTYuMTAyLS4yNC4xNTYtLjA3Mi4wNDktLjE1My4wODUtLjIxNS4xNDYtLjA2Ny4wNjctLjEwNy4xNTQtLjE1OC4yMzMtLjA0OS4wNzEtLjExLjEzLS4xNDUuMjExbC0uMDAyLjAwNWMtLjAxNS4wMzctLjAxMi4wODItLjAyNS4xMi0uMDQ1LjE0LS4wODUuMjgxLS4wODYuNDI0TDggNy45MDRWMjIuOThjMCA3LjUwNyA0LjA2IDE0LjQ0IDEwLjU5OSAxOC4wOTNsNC41MjggMi41MjNhMS40MDcgMS40MDcgMCAwIDAgMS4zNjMgMGw0LjUzMi0yLjUyM2M2LjUzNy0zLjY1MyAxMC41OTgtMTAuNTg2IDEwLjU5OC0xOC4wOTNWNy45MDRsLS4wMDEtLjAwNmMtLjAwMS0uMTM4LS4wNC0uMjcyLS4wODMtLjQwNnoiLz4KICAgICAgICA8cGF0aCBkPSJNMjEuODIyIDMwLjQwMWwuMDYtLjAwMWMuNDQyLS4wMTcuODYtLjIyIDEuMTQ0LS41NTZMMzQuMTggMTYuNzc4Yy4yNzYtLjMyMy40MTItLjczNC4zOC0xLjE1OGExLjU5MSAxLjU5MSAwIDAgMC0xLjcwNi0xLjQ3Yy0uNDI1LjAzMS0uODEuMjI5LTEuMDg1LjU1MUwyMS43MzEgMjYuNDZsLTQuMzYzLTQuMzgyYTEuNTg3IDEuNTg3IDAgMCAwLTIuMjQ3IDAgMS42MDQgMS42MDQgMCAwIDAgMCAyLjI1NWw1LjU3NyA1LjZhMS41OSAxLjU5IDAgMCAwIDEuMTI0LjQ2OHoiLz4KICAgIDwvZz4KPC9zdmc+Cg==" />
+                            Pembayaran Aman
+                            {/* <span></span> */}
+                        </div>
+                        <div>
+                            <img className="smaller" src="https://www.static-src.com/frontend/static/img/usp-call.c0c0663.svg" />
+                            24/7 Customer Service
+                            {/* <span></span> */}
+                        </div>
                     </div>
                 </div>
                 <div className="upperhome row">
