@@ -9,7 +9,6 @@
 .awal {
    
     height: 900px;
-    position: relative;
 
 }
 .con-flash1 {
@@ -22,7 +21,7 @@
 
 .con-flash2 {
     justify-content: space-between;
-    width: 205.1px;
+    width: 205px;
     float: left;
     align-items: flex-start;
     display: flex;

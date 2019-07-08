@@ -1,0 +1,26 @@
+.inspirasi{
+    position: relative;
+    margin-top: 320px;
+    background-color: white;
+}
+
+.inspirasi div {
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.inspirasi h3 {
+    padding-top: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.large{
+    margin: 5px 5px 5px 5px;
+}
+
+.small {
+    width: 80px;
+    margin: 10px 10px 10px 10px;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DataFlash from '../assets/dataflash';
+import DataFlash from '../data/dataflash';
 import '../assets/flashsale.css';
 
 function startTimer(duration, display) {
@@ -47,7 +47,7 @@ class FlashSale extends Component {
                         <img  className="atas-1" src="https://www.static-src.com/siva/asset//05_2019/FBB-Desktop.jpg?output-format=webp" />
                     </div>
                 </div>
-                <div className="awal">
+                <div>
                     <div  className="con-flash1">
                         <img src="https://www.static-src.com/siva/asset//10_2018/11QA_DesktopMobile_FlashsaleIcon_Default_1.png?output-format=webp" />
                         <span className="text1">FLASH SALE</span>
