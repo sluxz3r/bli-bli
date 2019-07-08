@@ -25,6 +25,21 @@
     color: #7a7a7a!important;
 }
 
+.bantuan-ul {
+    height: 250px;
+    margin-left: 0px;
+}
+
+.bantuan-1 {
+    margin-bottom: 50px;
+  
+}
+
+.bantuan-a {
+    text-decoration: none;
+    color: #7a7a7a!important;
+}
+
 ul {
   display: inline;
   margin: 0;
@@ -40,6 +55,7 @@ ul li ul {
   height: 120px;
   display: none;
   box-shadow: 0px 2px 5px grey;
+  margin-left: 0px;
 }
 .dwn{
     margin-top: 400px;
@@ -57,7 +73,7 @@ ul li ul li img {
 
 ul li ul li a {
     text-decoration: none;
-    margin: auto;
+  
     color: blue;
 
 }

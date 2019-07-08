@@ -23,7 +23,7 @@ class Header1 extends Component {
                                     <img src="https://cdn2.iconfinder.com/data/icons/ourea-icons/256/OS_Windows_8_256x256-32.png" /><br/>
                                     <a href="#">Windows</a>
                                 </li>
-                                <i className="dwn">Download Bangsad!!!!!</i>
+                                <idiv className="dwn">Download Bangsad!!!!!</idiv>
                             </ul>
                            
                         </li>
@@ -33,18 +33,12 @@ class Header1 extends Component {
                 <ul>
                         <li>
                             <a className="bantuan" href="#">Bantuan 24x7  &#709;</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Pembayaran</a>
-                                </li>
-                                <li>
-                                    <a href="#">Pengiriman</a>
-                                </li>
-                                <li>
-                                    <a href="#">Pengembalian</a>
-                                </li>
-                                <li>
-                                    <a href="#">Panduan Lainnya</a>
+                            <ul className="bantuan-ul">
+                                <li className="bantuan-1">
+                                    <p className="bantuan-a" href="#">Pembayaran</p><br/>
+                                    <p className="bantuan-a" href="#">Pengiriman</p><br/>
+                                    <p className="bantuan-a" href="#">Pengembalian</p><br/>
+                                    <p className="bantuan-a" href="#">Panduan Lainnya</p>
                                 </li>
                             </ul>                        
                            
