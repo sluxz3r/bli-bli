@@ -8,13 +8,47 @@ class Header2 extends Component{
     render() {
         return (
             <div id="header2">
-                <div className="left-header2">
-                    <ul>
-                        <li>
-                            <img className="garis3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAARVBMVEX///8AAAANDQ1eXl6GhobPz8+lpaVqamq6urrU1NSLi4sqKiqXl5cbGxshISGurq6QkJASEhIuLi7BwcG7u7ufn5+0tLQug/S+AAABAklEQVR4nO3dyZHDMAxFQYy8yZb3Lf9QpyaEOaBQoLoj+O9KqsQIAAAAAAAAAAAAAIBePss0ruUccf4Z2z0e1ROSTVG9IJ3C/hT2p7A/hf0p7E9hfwr7i6V6QbJnzNUTkr0idqftuE7H6mMwAAAAAAAAhjIfNuM6fCNu1VeYyfZxrZ6Q7LKCLxWqB6RT2J/C/hT2p7A/hf0p7G8FhZfqBcmusa+ekOwW8R36nOZdfQwGAAAAAADAUI5D/2NoF/GqvsJMNsezekKyZQVfKlQPSKewP4X9KexPYX8K+1PY3woKp+oFyR5xr56Q7O9Jq6Hf7PpUH4MBAAAAAAAAAAAAAPzTL2t3Q6zx7L8kAAAAAElFTkSuQmCC"></img>
-                        </li>
-                    </ul>
+                <div className="right-header">
+                        <ul>
+                            <li>
+                                <button className="garis3" type="button"> 
+                                    <img src="https://image.flaticon.com/icons/png/512/189/189790.png"></img>
+                                 </button>
+                                 <ul className="garis3-ul">
+                                     <li>
+                                        <p className="garis3-b" href="#">KATEGORI BELANJA</p><br/>
+                                        <p className="garis3-a" href="#">Galery indonesia</p>
+                                        <p className="garis3-a" href="#">BliBliMark</p>
+                                        <p className="garis3-a" href="#">HandPhone & Tablet</p>
+                                        <p className="garis3-a" href="#">Olahraga & Aktivitas Luar Ruangan</p>
+                                        <p className="garis3-a" href="#">Komputer & Laptop</p>
+                                        <p className="garis3-a" href="#">Kamera</p>
+                                        <p className="garis3-a" href="#">Mainan & Video Games</p>
+                                        <p className="garis3-a" href="#">Peralatan Elektronik</p>
+                                        <p className="garis3-a" href="#">Fashion Pria</p>
+                                        <p className="garis3-a" href="#">Home & Living</p>
+                                        <p className="garis3-a" href="#">Fashion Wanita</p>
+                                        <p className="garis3-a" href="#">Ibu & Anak</p>
+                                        <p className="garis3-a" href="#">Tiket & Voucher</p>
+                                        <p className="garis3-a" href="#">Kesehatan & Kecantikan</p>
+                                        <p className="garis3-a" href="#">Otomotif</p>
+                                        <p className="garis3-a" href="#">Tour & Travel</p>
+
+                                     </li>
+                                 </ul>
+                            </li>
+                        </ul>
                 </div>
+                <span className="mtix">
+                    <p>Mtix |</p>
+                </span>
+                <span className="giias">
+                    <p>GIIAS |</p>
+                </span>
+                <span className="wethe">
+                    <p>We The Fest2019 |</p>
+                </span>
+                <button className="bag" type="button"> <img src="https://www.blibli.com/faq/wp-content/uploads/2017/10/Blibli.com-FAQ-Belanja-Icon.png"></img> </button>
                 <input className="search" type="text" placeholder="Apa yang anda cari hari ini ..?"></input>
                 <button className="buttonSearch" type="submit"><img src="https://autofrontier.co.id/img/iconsearch.png" /></button>
                 <div className="user">Hello Gusy!!</div>

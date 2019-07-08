@@ -3,11 +3,15 @@
     width: 35%;
     height: 36px;
     border-radius: 5px;
-    left: 20%;
-    color: #999;
+    left: 24%;
     background-color: #f8f8f8;
     border: 1px solid #ddd;
     box-shadow: #999;
     padding-left: 20px;
-    top: 50px
+    top: 50px;
+    outline: none;
+    margin-top: -10px;
+}
+.search :placeholder {
+    color: #999;
 }
