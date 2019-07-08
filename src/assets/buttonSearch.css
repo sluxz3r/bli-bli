@@ -1,0 +1,16 @@
+.buttonSearch {
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 470px;
+    border: none;
+    outline: 0;
+    background-color: #f7931e;
+    width: 73px;
+    height: 40px;
+    border-radius: 4px;
+}
+.buttonSearch img {
+    width: 37px;
+}
