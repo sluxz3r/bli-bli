@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Data from '../data/data';
+import ListItem from '../component/list-item'
 
 class pageCategory extends Component{
     constructor(props){
@@ -18,6 +19,7 @@ class pageCategory extends Component{
                    {item.name}
                </div>
                )}
+               <ListItem />
             </div>
         );
     }
