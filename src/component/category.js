@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import DataCategory from '../data/DataCategory';
+import {Link} from 'react-router-dom';
 import '../assets/category.css';
 
 class Category extends Component{
@@ -12,15 +13,16 @@ class Category extends Component{
                 </div>
                
                 <div className="cat-div">
-                
-                    <a className="cat-a" href="">
-                        {DataCategory.map( item =>
+                {DataCategory.map( item =>
+                    <Link to={`/home/category/${item.category}` } category={item.category} className="cat-a">
+                       
                             <img className="cat-img" src={item.img} />
-                        )} 
-                        {DataCategory.map( item =>
+                       
+                       
                         <p className="cat-text">{item.category}</p>
-                        )}
-                    </a>
+                      
+                    </Link>
+                      )}
                    
                 </div> 
                      
