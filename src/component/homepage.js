@@ -9,7 +9,7 @@ class Homepage extends Component {
                 <div className="uppersmall row">
                     <div className="customer">
                         <img className="bigger" src="https://www.static-src.com/frontend/static/img/usp-number-one.5ceacbe.png" />
-                        Customer Satisfaction #1
+                        <span>Customer Satisfaction #1</span>
                     </div>
                 
                     <div className="features">
@@ -127,7 +127,7 @@ class Homepage extends Component {
                         </ul>
                     </div>
                 </div>
-                <div className="lowerhome slide">
+                <div className="lowerhome-slide">
                     <Slideshow className="slider"/>
                 </div>
 

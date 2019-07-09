@@ -2,13 +2,8 @@ div {
     display: block;
 }
 .homepage {
-    /* display: flex; */
-    width: 100%;
-    box-shadow: 0 1px 2px 0 #cccccc;
-    position: relative;
-    background-color: #ffffff;
-    padding: 10px 16px;
-    margin-bottom: 1em;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .upperhome {
@@ -21,13 +16,30 @@ div {
 .lefthome {
     /* width: 70%; */
     width: 65%;
-    margin-right: 2%;
     padding-bottom: 5px;
+    cursor: pointer;
     /* display: flex; */
+    background-color: white;
 }
 
+.lefthome h2 {
+    margin-left: 10px;
+}
+
+.lefthome ul li div {
+    background-color: white;
+}
 .righthome{
-    width: 35%
+    width: 35%;
+    background-color: white;
+}
+
+.righthome h2 {
+    margin-left: 10px;
+}
+
+.righthome ul li div {
+    background-color: white;
 }
 
 .fitur {
@@ -128,17 +140,14 @@ body {
     margin-right: 2%;
 }
 
-.lowerhome {
+.lowerhome-slide {
     height: 300px;
-    /* width: 100%; */
-}
-
-.slide {
-    height: 300px;
-    width: 100%;
+    cursor: pointer;
+    background-color: white;
 }
 
 .each-slide {
+    padding-left: 180px;
     height: 300px;
 }
 
@@ -151,6 +160,7 @@ body {
     box-shadow: 0 2px 4px 0 #cccccc;
     justify-content: center;
     align-items: center;
+    background-color: white;
 
 }
 
@@ -171,12 +181,18 @@ body {
     flex: 0.8;
     /* justify-content: center; */
     align-items: center;
+    background-color: white;
+}
+
+.features div {
+    background-color: white;
 }
 
 .customer {
     color: #0095da;
     /* width: 28%; */
     flex: 0.2;
+    background-color: white;
 }
 
 .customer {

@@ -13,17 +13,14 @@ class Category extends Component{
                 </div>
                
                 <div className="cat-div">
-                {DataCategory.map( item =>
-                    <Link to={`/home/category/${item.category}` } category={item.category} className="cat-a">
-                       
+                    {DataCategory.map( item =>
+                        <Link to={`/category/${item.category}`}  >
+                            <div className="cat-a">
                             <img className="cat-img" src={item.img} />
-                       
-                       
-                        <p className="cat-text">{item.category}</p>
-                      
-                    </Link>
-                      )}
-                   
+                            <p className="cat-p">{item.category}</p>
+                            </div>
+                        </Link>
+                    )}
                 </div> 
                      
             </div>
