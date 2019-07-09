@@ -5,7 +5,9 @@ const Data= [
         image: "https://icdn2.digitaltrends.com/image/xioami-mi-9-review-7-720x720.jpg",
         category: "Handphone",
         price: 2000,
-        description: 
+        description: {
+            
+        }
             
         
     },
