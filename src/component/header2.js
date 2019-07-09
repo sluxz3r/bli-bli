@@ -48,7 +48,7 @@ class Header2 extends Component{
                 <span className="wethe">
                     <p>We The Fest2019 |</p>
                 </span>
-                <button className="bag" type="button"> <img src="https://www.blibli.com/faq/wp-content/uploads/2017/10/Blibli.com-FAQ-Belanja-Icon.png"></img> </button>
+                <li> <img src="https://apprecs.org/gp/images/app-icons/300/b2/com.gdn.blibli.mta.jpg" className="bag"></img> </li>
                 <input className="search" type="text" placeholder="Apa yang anda cari hari ini ..?"></input>
                 <button className="buttonSearch" type="submit"><img src="https://autofrontier.co.id/img/iconsearch.png" /></button>
                 <div className="user">Hello Gusy!!</div>
