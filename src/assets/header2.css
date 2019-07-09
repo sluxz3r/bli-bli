@@ -1,12 +1,11 @@
 #header2{
-    box-shadow: 0px 0px 10px #cccccc;
-    padding: 30px 0px 1px 0px;
+    padding: 5px 0px 1px 0px;
     background: url(https://www.static-src.com/frontend/../s_images/blibli-bg-pattern.jpg);
 }
 p img{
     position: absolute;
     width: 100px;
-    height: 40px;
+    height: 35px;
     right: 1100px;
     top: 50px;
     left: 80px;

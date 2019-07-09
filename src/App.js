@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route,} from 'react-router-dom';
 import Header1 from './component/header1';
 import Header2 from './component/header2';
 import Footer from './component/footer';
@@ -14,7 +14,7 @@ class App extends Component {
         <Header1 />
         <Header2 />
               <Route exact path="/" component={PageHome}/>
-              <Route path="/category/:category" component={PageCategory}/>   
+              <Route path="/category/:category" component={PageCategory}/>  
         <Footer />
       </div>
     );
