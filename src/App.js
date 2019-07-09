@@ -13,15 +13,8 @@ class App extends Component {
       <div>
         <Header1 />
         <Header2 />
-        
-
-        <Router>
-          <Switch>
-          <Route exact path="/"><PageHome /></Route>
-          <Route path="/category/:category"> <PageCategory /> </Route>
-          </Switch>
-        </Router>
-
+              <Route exact path="/" component={PageHome}/>
+              <Route path="/category/:category" component={PageCategory}/>   
         <Footer />
       </div>
     );

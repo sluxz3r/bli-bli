@@ -1,6 +1,7 @@
 .div-utama{
     padding-bottom: 20px;
     cursor: pointer;
+    
 }
 .con-flash {
     align-items: flex-start;
@@ -8,6 +9,7 @@
     justify-content: space-between;
     position: relative;
     margin-bottom: 10px;
+    
 }
 
 .awal {
@@ -21,6 +23,7 @@
     display: flex;
     position: relative;
     background-image: url("https://www.static-src.com/siva/asset//10_2018/11QA_DesktopMobile_FlashSaleBackground_Default_1.png");
+    box-shadow: 0 2px 4px 0 #cccccc;
 }
 
 .con-flash2 {
