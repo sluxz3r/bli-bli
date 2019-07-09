@@ -18,7 +18,7 @@ class Category extends Component{
                         <Link to={`/category/${item.category}`}  >
                             <div className="cat-a">
                             <img className="cat-img" src={item.img} />
-                            <p className="cat-p">{item.categori}</p>
+                            <p className="cat-p">{item.category}</p>
                             </div>
                         </Link>
                     )}
