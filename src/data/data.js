@@ -6,7 +6,7 @@ const Data= [
         category: "Handphone",
         price: 2000,
         description: {
-            
+
         }
             
         
@@ -15,7 +15,7 @@ const Data= [
         id: 2,
         name: "InstaX",
         image: "https://i5.walmartimages.com/asr/3032cbb2-3565-43e5-af35-a0aa76ff8bb0_1.06114a4d2d6870f733056fdb5e405da0.jpeg",
-        category: "Kamera",
+        category: "Peralatan Elektronik",
         price: 2000,
         description: {
             
@@ -34,8 +34,8 @@ const Data= [
     {
         id: 4,
         name: "Fujifilm",
-        image: "https://cdn.sindonews.net/webp/620/content/2019/05/24/123/1407034/fujifilm-gfx-100-kamera-medium-harga-rp140-juta-dengan-sensor-102-mp-loz.webp",
-        category: "Kamera",
+        image: "https://cdn.sindonews.net/webp/620/content/2019/05/24/123/1407034/fujifilm-gfx-100-Peralatan Elektronik-medium-harga-rp140-juta-dengan-sensor-102-mp-loz.webp",
+        category: "Peralatan Elektronik",
         price: 2000,
         description: {
             
@@ -63,9 +63,9 @@ const Data= [
     },
     {
         id: 7,
-        name: "Kamera Analog",
+        name: "Peralatan Elektronik Analog",
         image: "https://cdn.idntimes.com/content-images/community/2018/04/7976332159-137e970c8c-b-844f7d54e4e704e1739da52fba329f3d_600x400.jpg",
-        category: "Kamera",
+        category: "Peralatan Elektronik",
         price: 2000,
         description: {
             
@@ -75,7 +75,7 @@ const Data= [
         id: 8,
         name: "Matras Yoga",
         image: "https://aerish.com/wp-content/uploads/2018/12/Barangimpordotnet-Matras_yoga_original_kettler-0004.jpg",
-        category: "Olahraga",
+        category: "Fashion Wanita Pria",
         price: 2000,
         description: {
             
@@ -95,7 +95,7 @@ const Data= [
         id: 10,
         name: "Barbel Melayang",
         image: "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/6/22/3990375/3990375_1ec3e734-97c5-4b3b-a376-741e43d6f52e_1000_1000",
-        category: "Olahraga",
+        category: "Fashion Pria",
         price: 2000,
         description: {
             
@@ -105,7 +105,7 @@ const Data= [
         id: 11,
         name: "Rok Jumbo",
         image: "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/6/24/3092596/3092596_91de7f4b-e8ea-4ed9-9508-67a908f573a9.jpeg",
-        category: "Fashion",
+        category: "Fashion Wanita Wanita",
         price: 2000,
         description: {
             
@@ -115,7 +115,7 @@ const Data= [
         id: 12,
         name: "Bando Pink",
         image: "https://ecs7.tokopedia.net/img/cache/700/product-1/2015/5/10/331515/331515_30cdcb10-f6fd-11e4-9dda-ab9b49bc7260.jpg",
-        category: "Fashion",
+        category: "Fashion Wanita",
         price: 2000,
         description: {
             
@@ -125,7 +125,7 @@ const Data= [
         id: 13,
         name: "Handuk Kering",
         image: "https://ecs7.tokopedia.net/img/cache/700/product-1/2017/4/26/153950655/153950655_09222366-ffba-4062-93ac-55cece82ae3b_528_528.jpg",
-        category: "Olahraga",
+        category: "Fashion Pria",
         price: 2000,
         description: {
             
@@ -135,7 +135,7 @@ const Data= [
         id: 14,
         name: "Sarung Zidnay",
         image: "https://cf.shopee.co.id/file/7fc5b524885b465d7cf1fd57312163c9",
-        category: "Fashion",
+        category: "Fashion Wanita",
         price: 2000,
         description: {
             
@@ -145,7 +145,7 @@ const Data= [
         id: 15,
         name: "Nike Lunar Edition",
         image: "https://cdn.runrepeat.com/i/nike/24925/nike-men-s-lunar-apparent-black-white-cool-grey-8-m-us-men-s-black-white-cool-grey-5d65-600.jpg",
-        category: "Olahraga",
+        category: "Fashion Pria",
         price: 2000,
         description: {
             
@@ -155,7 +155,7 @@ const Data= [
         id: 16,
         name: "CTR",
         image: "https://img.solopos.com/posts/2018/12/08/957603/d0bed0b1d0bbd0bed0b6d0bad0b0_d0b8d0b3d180d18b_crash_team_racing-f9f2.jpg?w=600",
-        category: "Games",
+        category: "Tiket",
         price: 2000,
         description: {
             
@@ -165,7 +165,7 @@ const Data= [
         id: 17,
         name: "Pepsi Man",
         image: "https://i.pinimg.com/originals/18/61/61/18616113367054cb2fba488c7d6e6e2c.jpg",
-        category: "Games",
+        category: "Tiket",
         price: 2000,
         description: {
             
@@ -175,7 +175,7 @@ const Data= [
         id: 18,
         name: "Papan Karambol",
         image: "https://cf.shopee.co.id/file/85e0894619ede501a2a60a954e73e3a8",
-        category: "Olahraga",
+        category: "Fashion Pria",
         price: 2000,
         description: {
             
@@ -195,7 +195,7 @@ const Data= [
         id: 20,
         name: "Obat Tetes Mata",
         image: "https://s2.bukalapak.com/img/7485317414/w-1000/1865622_07601a12_98af_47ba_b7c1_2c122e48f0e4.jpg",
-        category: "Games",
+        category: "Tiket",
         price: 2000,
         description: {
             
@@ -205,7 +205,7 @@ const Data= [
         id: 21,
         name: "Megalodon",
         image: "https://images.latintimes.com/sites/latintimes.com/files/styles/large/public/2014/08/13/hungry-shark-evolution.jpg",
-        category: "Games",
+        category: "Tiket",
         price: 2000,
         description: {
             
@@ -225,7 +225,7 @@ const Data= [
         id:23,
         name: "Panduan Bermain Gobaksodor",
         image: "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/12/7/26385711/26385711_7771cd91-ae2f-4171-9003-2171e0b8ca36_2048_2817.jpg",
-        category: "Games",
+        category: "Tiket",
         price: 2000,
         description: {
             
