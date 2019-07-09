@@ -11,7 +11,6 @@ class pageCategory extends Component{
     render(){
         return(
             <div>
-                {console.log(this.pata)}
                 {this.pata.map(item => 
                <div>
                    <img src={item.image}/>
