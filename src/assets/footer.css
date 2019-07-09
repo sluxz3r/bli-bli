@@ -1,4 +1,6 @@
-
+.footer {
+    margin: 0px 40px;
+}
 .footer-1 {
     display: flex;
     justify-content: center;
