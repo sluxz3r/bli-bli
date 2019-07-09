@@ -6,6 +6,7 @@ import '../assets/category.css';
 class Category extends Component{
     render(){
         return(
+            
             <div className="category">
                 <div className="cat-header">
                     <span>Kategori</span>
@@ -17,13 +18,14 @@ class Category extends Component{
                         <Link to={`/category/${item.category}`}  >
                             <div className="cat-a">
                             <img className="cat-img" src={item.img} />
-                            <p className="cat-p">{item.category}</p>
+                            <p className="cat-p">{item.categori}</p>
                             </div>
                         </Link>
                     )}
                 </div> 
                      
             </div>
+          
         );
     }
 }
