@@ -3,6 +3,7 @@ import Header1 from './component/header1';
 import Header2 from './component/header2';
 import FlashSale from './component/flashsale';
 import Footer from './component/footer';
+import Inspirasi from './component/inspirasi';
 import './App.css';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
         <div className="body">
           
           <FlashSale />
-          
+          <Inspirasi />
         </div>
         <Footer />
       </div>

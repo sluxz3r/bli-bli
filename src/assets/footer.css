@@ -1,6 +1,100 @@
-.footer {
-    background: blue;
+
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
 }
-#bantuan ul li a {
-    text-decoration: none;
+.bantuan {
+    margin: 0px 40px;
+    font-size: 13px;
 }
+
+.bantuan ul {
+    margin: 0px 60px;
+}
+
+.bantuan ul li {
+    display: block;
+    cursor: pointer;
+    margin: 10px 0px;
+    padding: 3px;
+    font-size: 11px;
+    
+    
+}
+
+.cos{
+    margin: 0px 50px;
+    font-size: 13px;
+}
+
+.cos ul {
+    margin: 0px 20px;
+}
+
+.cos ul li  {
+    display: block;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 11px;
+}
+
+.info {
+    margin: 0px 55px;
+    font-size: 13px;
+}
+
+.info ul {
+    margin: 0px 65px;
+}
+.info ul li {
+    display: block;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 11px;
+}
+
+.kerjasama {
+    margin:  0px 50px;
+    font-size: 13px;
+}
+.kerjasama ul {
+    margin: 0px 55px;
+}
+.kerjasama ul li {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 11px;
+}
+.kerjasama img {
+    width: 100px;
+    height: 22px;
+    cursor: pointer;
+}
+.ikuti {
+    margin: 0px 0px;
+    font-size: 13px;
+}   
+.ikuti ul li {
+    display: block;
+}
+.ikuti ul li img {
+    width: 85px;
+    height: 35px;
+}
+.apk {
+    width: 130px;
+    height: 40;
+}
+
+.btn-bantuan {
+    width: 180px;
+    height: 40px;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgb(58, 56, 56);
+}
+
+
+
