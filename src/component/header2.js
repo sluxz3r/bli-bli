@@ -7,7 +7,7 @@ import '../assets/user.css'
 class Header2 extends Component{
     render() {
         return (
-            <div id="header2">
+            <div className="header-big" id="header2">
                 <div className="right-header">
                         <ul>
                             <li>

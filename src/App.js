@@ -12,10 +12,11 @@ class App extends Component {
       <div>
         <Header1 />
         <Header2 />
+ 
         <Router>
           <Switch>
-          <Route exact path="/home"><PageHome /></Route>
-          <Route path="/home/category/:category"> <PageCategory /> </Route>
+          <Route exact path="/"><PageHome /></Route>
+          <Route path="/category/:category"> <PageCategory /> </Route>
           </Switch>
         </Router>
       </div>
