@@ -31,7 +31,7 @@ class FlashSale extends Component {
 
     render() {
         return (
-            <div>
+            <div className="div-utama">
                 <div className="con-flash">
                     <div className="atas">
                         <p >Halo!</p>

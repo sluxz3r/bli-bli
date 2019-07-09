@@ -6,8 +6,8 @@ class Inspirasi extends Component {
     render(){
         return(
             <div className="inspirasi">
-                <div>
-                    <h3>Inspirasi Belanja</h3>
+                <div  className="diiv">
+                    <span className="inspirasi-text">Inspirasi Belanja</span>
                 </div>
 
                 <div>
