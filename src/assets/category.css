@@ -37,29 +37,21 @@
 .cat-div {
     background-color: white;
     justify-content: center;
+   
 }
 
 .cat-a{
-    text-decoration: none;
-    background-color: white;
-}
-  
-
-.cat-img{
     margin: 10px 10px 10px 20px;
     background-color: white;
     cursor: pointer;
     align-items: flex-start;
     position: relative;
     vertical-align: middle;
+    float: left;
     
 }
-
-.cat-text {
-    margin-right: 60px;
-    margin-left: 60px;
-    font-size: 10pt;
+  
+.cat-p {
+    padding: 10px 10px 10px 60px;
     color: black;
-    background-color: white;
-    float: left;
 }
