@@ -1,6 +1,6 @@
 const Data= [
     {
-        id: 1,
+        id: "1",
         name: "Mi 9",
         image: "https://icdn2.digitaltrends.com/image/xioami-mi-9-review-7-720x720.jpg",
         category: "Handphone",         
@@ -12,7 +12,7 @@ const Data= [
         
     },
     {
-        id: 2,
+        id: "2",
         name: "InstaX",
         image: "https://i5.walmartimages.com/asr/3032cbb2-3565-43e5-af35-a0aa76ff8bb0_1.06114a4d2d6870f733056fdb5e405da0.jpeg",
         category: "Peralatan Elektronik",
