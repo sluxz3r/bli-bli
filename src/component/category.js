@@ -18,7 +18,7 @@ class Category extends Component{
                             <img className="cat-img" src={item.img} />
                         )} 
                         {DataCategory.map( item =>
-                        <span className="cat-text">{item.category}</span>
+                        <p className="cat-text">{item.category}</p>
                         )}
                     </a>
                    

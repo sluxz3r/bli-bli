@@ -36,6 +36,7 @@
 
 .cat-div {
     background-color: white;
+    justify-content: center;
 }
 
 .cat-a{
@@ -50,6 +51,7 @@
     cursor: pointer;
     align-items: flex-start;
     position: relative;
+    vertical-align: middle;
     
 }
 
@@ -59,4 +61,5 @@
     font-size: 10pt;
     color: black;
     background-color: white;
+    float: left;
 }
