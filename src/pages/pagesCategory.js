@@ -42,7 +42,7 @@ class pageCategory extends Component {
                         <div className="category-flex">
                             <img className="category-icon" src={item.image}/>
                             <p className="cat-p1">{item.name}</p>
-                            <p className="cat-p2">{item.price}</p>
+                            <p className="cat-p2">Rp{item.price}</p>
                         </div>
                     </Link>
                     )}
