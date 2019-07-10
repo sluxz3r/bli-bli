@@ -1,0 +1,25 @@
+.kupon-1 {
+    padding: 1px 10px 1px 10px;
+    margin-left: 15px;
+    color: rgb(5, 202, 5);
+    font-size: 14pt;
+}
+
+.kupon-2{
+    border: 1px solid rgb(170, 170, 170);
+    background-color: white;
+    position: absolute;
+    height: 100px;
+    width: 190px;
+    padding: 1px 0px 15px 15px;
+    margin-left: 20px
+}
+
+.kupon-3{
+    border: 1px solid rgb(170, 170, 170);
+    background-color: white;
+    padding: 1px 0px 15px 15px;
+    margin-left: 240px;
+    height: 100px;
+    width: 190px;
+}

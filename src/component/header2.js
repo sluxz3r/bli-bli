@@ -3,6 +3,7 @@ import '../assets/header2.css'
 import '../assets/search.css'
 import '../assets/buttonSearch.css'
 import '../assets/user.css'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 class Header2 extends Component{
     render() {
@@ -50,10 +51,11 @@ class Header2 extends Component{
                 </span>
                 <li> <img src="https://apprecs.org/gp/images/app-icons/300/b2/com.gdn.blibli.mta.jpg" className="bag"></img> </li>
                 <input className="search" type="text" placeholder="Apa yang anda cari hari ini ..?"></input>
-                <button className="buttonSearch" type="submit"><img src="https://autofrontier.co.id/img/iconsearch.png" /></button>
+                <button className="buttonSearch" type="submit"><img className="img-s" src="https://autofrontier.co.id/img/iconsearch.png" /></button>
                 <div className="user">Hello Gusy!!</div>
-                <p className="pp"><img src="https://massakublog.files.wordpress.com/2017/04/blibli-logo.png?w=532" /></p>                
-                
+                <Link to="/">
+                    <p className="pp"><img src="https://massakublog.files.wordpress.com/2017/04/blibli-logo.png?w=532" /></p>                
+                </Link>
             </div>
         );
     }

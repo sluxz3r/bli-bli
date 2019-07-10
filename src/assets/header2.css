@@ -10,6 +10,7 @@
     top: 50px;
     left: 80px;
     cursor: pointer;
+    background-color: transparent;
 }
 .garis3 {
     position: absolute;
@@ -47,6 +48,9 @@
     color: #797676;
     font-size: 13px;
     position: absolute;
+}
+.img-s{
+    background-color: transparent;
 }
 .bag {
     position: absolute;

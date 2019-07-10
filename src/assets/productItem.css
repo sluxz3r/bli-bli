@@ -1,5 +1,5 @@
 .body1{
-    border: 1px solid black;
+   background-color: white;
 
 }
 
@@ -23,7 +23,6 @@
 }
 
 .prod-div1{
-    border: 1px solid black;
     width: 950px;
     height: 890px;
     border-bottom: 1px solid #ccc;
@@ -43,8 +42,12 @@
 
 }
 .prod-name{
-    border: 1px solid black;
-    height: 70px;
+    background-color: white;
+    padding-left: 20px; 
+    height: 60px;
+    font-size: 35px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
 }
 
 .cot{
@@ -52,7 +55,6 @@
 }
 
 .prod-img{
-    border: 1px solid black;
     height: 425px;
     width: 425px;
     padding: 5px;
@@ -60,23 +62,41 @@
 }
 
 .prod-list{
-    border: 1px solid black;
     padding: 5px;
     height: 380px;
     width: 465px;
     margin-left: 460px;
+    background-color: white;
 }
 
 .prod-list p{
     border-bottom: 1px solid #ccc;
+    background-color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 20px 0px 30px 20px;
+    padding-bottom: 10px;
+}
+.prod-div2{
+   background-color: white;
+   width: 140px;
+   position: absolute;
+}
+
+.prod-div3{
+    background-color: white;
+    height: 380px;
+    width: 315px;
+    margin-left: 150px;
 }
 
 .prod-detail{
-    border: 1px solid black;
+    background-color: white;
     padding: 5px;
     height: 130px;
     width: 465px;
     margin-left: 460px;
+    border-bottom: 1px solid #ccc;
 }
 
 .prod-foto{
@@ -96,10 +116,59 @@
 }
 
 .prod-kupon{
-    border: 1px solid black;
-    margin-top: 30px;
+    margin-top: 35px;
     padding: 5px 5px 5px 5px;
     width: 465px;
     height: 200px;
     margin-left: 460px;
+    box-shadow: 0 2px 4px 0 #cccccc;
+}
+
+.jumlah{
+    background-color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 20px 0px 30px 20px;
+    padding-bottom: 10px;
+}
+
+.input-jumlah{
+    background-color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-left: 100px;
+    padding-bottom: 10px;
+}
+
+.input-jumlah input {
+    background-color: white;
+    width: 30px;
+    height: 20px;
+}
+.input-jumlah button {
+    width: 10px;
+    height: 20px;
+}
+
+.button-pay{
+    padding-top: 30px;
+    padding-left: 25px;
+    background-color: white;
+  
+}
+.button-pay button{
+    border:0px transparent;
+    font-size: 11pt;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin-right: 25px; 
+    height: 40px;
+    width: 170px;
+}
+
+.prod-lihat{
+    padding-top: 10px;
+    width: 1233px;
+    height: 380px;
 }

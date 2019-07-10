@@ -9,7 +9,7 @@ class Homepage extends Component {
                 <div className="uppersmall row">
                     <div className="customer">
                         <img className="bigger" src="https://www.static-src.com/frontend/static/img/usp-number-one.5ceacbe.png" />
-                        <span>Customer Satisfaction #1</span>
+                        <span style={{padding:"10px 5px"}}>Customer Satisfaction #1</span>
                     </div>
                 
                     <div className="features">
