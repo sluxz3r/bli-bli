@@ -5,9 +5,11 @@ const Data= [
         image: "https://icdn2.digitaltrends.com/image/xioami-mi-9-review-7-720x720.jpg",
         category: "Handphone",         
         price: "RP5.150.000",
-        description: {
-
-        }
+        description: [
+            'uhbuhbugbyhgby',
+            'iuniunuynuh',
+            'inhnhnuu uu'
+        ]
             
         
     },

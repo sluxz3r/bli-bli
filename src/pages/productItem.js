@@ -64,7 +64,28 @@ class productItem extends Component {
                         </div>
 
                         <div className="prod-fitur">
-                            
+                            <div className="product-feature">
+                                <div>Fitur Produk</div>
+                                <div>
+                                    <ul>
+                                        <li>gsrg</li>
+                                        <li>sgrg</li>
+                                        <li>gsrg</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="product-service">
+                                <div>Pelayanan Produk</div>
+                                <div>
+                                    <ul>
+                                        <li>
+                                        15 hari Pengembalian Produk <a>info</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
                         </div>
 
                         <div className="prod-kupon">Kupon Diskon</div>
