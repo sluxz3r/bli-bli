@@ -38,6 +38,7 @@ class pageCategory extends Component {
                     <div className="cat-div1">
                         <h2>Produk Kamu</h2>
                     {this.pata.map(item => 
+
                    <Link to={`/product/${item.id}`}  target="blank"  >
                         <div className="category-flex">
                             <img className="category-icon" src={item.image}/>
@@ -52,6 +53,7 @@ class pageCategory extends Component {
                         <img className="kata" src="https://cdn1.imggmi.com/uploads/2019/7/10/949d18345adb728abd7180e72840f4e6-full.png" />
                     </div>
                 </div>
+
             </div>
         );
     }
