@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Data from '../data/data';
 import { Link } from 'react-router-dom';
 import KuponDiskon from '../component/kuponDiskon';
+import Listproduk from '../component/listproduk';
 import '../assets/productItem.css';
 
 class productItem extends Component {
@@ -15,6 +16,7 @@ class productItem extends Component {
         return (
             <div className="body">
                 <div className="body1">
+                    
                     <div className="prod-div">
                         <Link className="home" to='/'  >
                             <a >Home</a>
@@ -52,7 +54,11 @@ class productItem extends Component {
                             </div>
                         </div>
 
-                        <div className="prod-foto">Foto Tambahan</div>
+                        <div className="prod-foto">
+                            <img src={this.pata.img1} />
+                            <img src={this.pata.img2} />
+                            <img src={this.pata.img3} />
+                        </div>
 
                         <div className="prod-detail">
                             <div style={{backgroundColor:"white"}}>
@@ -70,8 +76,6 @@ class productItem extends Component {
                             </div>
                         </div>
 
-                        
-
                         <div className="prod-fitur">
                             
                         </div>
@@ -84,6 +88,10 @@ class productItem extends Component {
 
                     <div className="prod-rigth">
                         KOMPONEN RAHMAD
+                    </div>
+
+                    <div className="prod-lihat">
+                        <Listproduk />
                     </div>
                 </div>
             </div>

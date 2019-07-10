@@ -45,7 +45,7 @@
     background-color: white;
     padding-left: 20px; 
     height: 60px;
-    font-size: 35px;
+    font-size: 22pt;
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
 }
@@ -55,10 +55,14 @@
 }
 
 .prod-img{
-    height: 425px;
+    height: 400px;
     width: 425px;
     padding: 5px;
     position: absolute;
+
+}
+.prod{
+    border-bottom: 1px solid #ccc;
 }
 
 .prod-list{
@@ -100,11 +104,18 @@
 }
 
 .prod-foto{
-    border: 1px solid black;
-    height: 65px;
-    width: 425px;
-    padding: 5px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    background-color: white;
+    height: 120px;
+    width: 370px;
+    margin-top: 10px;
+    padding-left: 30px;
     position: absolute;
+}
+.prod-foto img {
+    border: 1px solid rgb(192, 192, 192);
+    margin-right: 5px;
 }
 
 .prod-fitur{
@@ -116,7 +127,7 @@
 }
 
 .prod-kupon{
-    margin-top: 40px;
+    margin-top: 35px;
     padding: 5px 5px 5px 5px;
     width: 465px;
     height: 200px;
@@ -165,4 +176,10 @@
     margin-right: 25px; 
     height: 40px;
     width: 170px;
+}
+
+.prod-lihat{
+    padding-top: 10px;
+    width: 1233px;
+    height: 380px;
 }

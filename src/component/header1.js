@@ -23,7 +23,7 @@ class Header1 extends Component {
                                     <img src="https://cdn2.iconfinder.com/data/icons/ourea-icons/256/OS_Windows_8_256x256-32.png" /><br/>
                                     <a href="#">Windows</a>
                                 </li>
-                                <idiv className="dwn">Download Bangsad!!!!!</idiv>
+                                <idiv className="dwn">Download Bwaaanggg!!!</idiv>
                             </ul>
                            
                         </li>
