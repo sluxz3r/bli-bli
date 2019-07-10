@@ -4,7 +4,7 @@
 }
 
 .prod-div{
-    border-bottom: 1px solid #ccc;
+    border-bottom: 20px solid #f1f1f1f8;
     height: 25px;
     background-color:#fff;
     cursor: pointer;
@@ -61,9 +61,7 @@
     position: absolute;
 
 }
-.prod{
-    border-bottom: 1px solid #ccc;
-}
+
 
 .prod-list{
     padding: 5px;
@@ -182,4 +180,10 @@
     padding-top: 10px;
     width: 1233px;
     height: 380px;
+}
+
+.prod-des {
+    box-shadow: 0 2px 4px 0 #cccccc;
+    height: 500px;
+    width: 1230px;
 }
