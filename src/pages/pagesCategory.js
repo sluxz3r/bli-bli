@@ -37,15 +37,13 @@ class pageCategory extends Component {
 
                     <div>
                     {this.pata.map(item => 
-
-                        <div>
-                            <img className="category-icon" src={item.image}/>
+                        <div >
+                            <img src={item.image}/>
                             <p>{item.name}</p>
                              <p>{item.price}</p>
                         </div>
                         )}
                     </div>
-
             </div>
         );
     }

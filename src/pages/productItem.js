@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Data from '../data/data';
 import {Link} from 'react-router-dom';
 import '../assets/productItem.css';
+import Rating from '../component/rating'
 
 class productItem extends Component {
     constructor(props) {
@@ -57,7 +58,7 @@ class productItem extends Component {
                     </div>
 
                     <div className="prod-rigth">
-                        KOMPONEN RAHMAD
+                        <Rating />
                     </div>
                 </div>
             </div>
