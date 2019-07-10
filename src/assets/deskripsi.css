@@ -1,0 +1,26 @@
+.des-prod{
+    width: 1230px;
+    height: 40px;
+    background-color:#0095DA; 
+    padding-top: 10px;
+}
+.des-prod span{
+    font-size: 15pt;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.856);
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+.des-kiri {
+    background-color: white;
+    width: 820px;
+    height: 400px;
+    padding: 20px;
+
+}
+
+.des-p{
+    margin-right: 220px;
+    line-height: 30px;
+}
