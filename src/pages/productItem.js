@@ -17,6 +17,7 @@ class productItem extends Component {
         return (
             <div className="body">
                 <div className="body1">
+                    
                     <div className="prod-div">
                         <Link className="home" to='/'  >
                             <a >Home</a>
@@ -54,7 +55,11 @@ class productItem extends Component {
                             </div>
                         </div>
 
-                        <div className="prod-foto">Foto Tambahan</div>
+                        <div className="prod-foto">
+                            <img src={this.pata.img1} />
+                            <img src={this.pata.img2} />
+                            <img src={this.pata.img3} />
+                        </div>
 
                         <div className="prod-detail">
                             <div style={{backgroundColor:"white"}}>
@@ -85,6 +90,7 @@ class productItem extends Component {
                     <div className="prod-rigth">
                         <Rating />
                     </div>
+
                     <div className="prod-lihat">
                         <Listproduk />
                     </div>

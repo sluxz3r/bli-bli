@@ -1,51 +1,52 @@
 const Data= [
     {
         id: "1",
-        name: "Mi 9",
-        image: "https://icdn2.digitaltrends.com/image/xioami-mi-9-review-7-720x720.jpg",
+        name: "Samsung Galaxy M10 Smartphone - Charcoal Black [16 GB/ 2 GB]",
+        image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//93/MTA-3196263/samsung_samsung-galaxy-m10-smartphone---charcoal-black_full03.jpg",
+        img1:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//93/MTA-3196263/samsung_samsung-galaxy-m10-smartphone---charcoal-black_full03.jpg",
+        img2:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//93/MTA-3196263/samsung_samsung-galaxy-m10-smartphone---charcoal-black_full04.jpg",
+        img3:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//93/MTA-3196263/samsung_samsung-galaxy-m10-smartphone---charcoal-black_full05.jpg",
         category: "Handphone",         
         price: 5150000,
-        description: {
-
-        }
-            
-        
+        description:"Samsung Galaxy M10 merupakan smartphone yang sudah dibekali dengan prosesor Octa-Core 1.6GHz dengan layar 6.2 Inch. Smartphone ini juga dibekali dengan kamera belakang 13.0 MP + 5.0 MP, kamera depan 5.0 MP, serta baterai 3400 mAh. Samsung Galaxy M10 sudah berjalan pada OS terbaru yakni Android 8.1 (Oreo). Tersedia dua slot SIM dan slot microSD."
     },
     {
         id: "2",
-        name: "InstaX",
-        image: "https://i5.walmartimages.com/asr/3032cbb2-3565-43e5-af35-a0aa76ff8bb0_1.06114a4d2d6870f733056fdb5e405da0.jpeg",
-        category: "Peralatan Elektronik",
+        name: "Apple Iphone 7 (Gold, 128 GB)",
+        image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//96/MTA-2928506/apple_apple-iphone-7-128-gb_full09.jpg",
+        img1:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//96/MTA-2928506/apple_apple-iphone-7-128-gb_full09.jpg",
+        img2:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//96/MTA-2928506/apple_apple-iphone-7-128-gb_full10.jpg",
+        img3:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//96/MTA-2928506/apple_apple-iphone-7-128-gb_full11.jpg",
+        category: "Handphone",
         price: 200000,
-        description: {
-            
-        }
+        description:"iPhone 7, hadir dengan desain metal mewah yang terbalut dalam lima varian warna yang elegan dan berkelas. Menariknya, smartphone ini merupakan generasi iphone pertama yang bodinya dilengkapi dengan sertifikasi IP67, yang diyakini mampu membuatnya tahan akan cipratan air, tumpahan air, dan bahkan debu.Untuk tampilan layarnya sendiri, Apple membekali Iphone 7 dengan layar Retina HD 4,7 inch resolusi 1334 × 750 pixels yang mampu memberikan Anda tampilan gambar yang jelas dan cerah.  Jadi, semua warna yang tampil di layar akan terlihat akurat serasa melihatnya secara langsung dengan mata kepala sendiri.  Sebagai tambahan, tersemat pula fitur 3D Touch. Dengan menggunakan fitur ini, smartphone keluaran Apple ini diyakini dapat merespons dengan ketukan yang halus, sehingga Anda tidak hanya melihat efek tekanan saja, tetapi merasakannya juga."
     },
     {
         id: "3",
-        name: "Realme 3 Pro",
-        image: "https://i.gadgets360cdn.com/products/large/1555920099_635_realme3_pro_db.jpg",
+        name: "Samsung Galaxy Note 9 Smartphone [128GB/ 6GB]",
+        image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//95/MTA-2570476/samsung_samsung-galaxy-note-9-smartphone--128gb--6gb-_full05.jpg",
+        img1:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//95/MTA-2570476/samsung_samsung-galaxy-note-9-smartphone--128gb--6gb-_full05.jpg",
+        img2:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//95/MTA-2570476/samsung_samsung-galaxy-note-9-smartphone--128gb--6gb-_full06.jpg",
+        img3:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//95/MTA-2570476/samsung_samsung-galaxy-note-9-smartphone--128gb--6gb-_full07.jpg",
         category: "Handphone",         
-        price: 2.000000,
-        description: {
-            
-        }
+        price: 2000000,
+        description:"Belakangan sudah ramai dibicarakan jika Samsung segera merilis flagship phone terbarunya, Samsung Galaxy Note 9. Dan tepat di minggu ke-2 bulan Agustus smartphone ini resmi diluncurkan. Kabar terbarunya ponsel ini dibekali dengan beberapa pembaruan, semisal fungsi S Pen yang lebih atraktif, kapasitas memori penyimpanan yang lebih leluasa, dan tentunya kinerja prosesor yang powerful. Selain itu, masih ada hal lain yang terbilang cukup istimewa dari Smartphone Galaxy Note 9, diantaranya desain handphone yang kelihatan premium, panel layar OLED 6,3 inch dan kemera ponsel yang didukung kecerdasan buatan (AI). Begitupun dengan perbekalan baterai yang dititipkan berkapasitas 4000 mAh.  u"
     },
     {
         id: "4",
-        name: "Fujifilm",
-        image: "https://cdn.sindonews.net/webp/620/content/2019/05/24/123/1407034/fujifilm-gfx-100-Peralatan Elektronik-medium-harga-rp140-juta-dengan-sensor-102-mp-loz.webp",
-        category: "Peralatan Elektronik",
+        name: "Realme 3 Pro Smartphone [64GB/ 4GB]",
+        image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//85/MTA-3414072/realme_realme-3-pro-smartphone--64gb--4gb-_full08.jpg",
+        img1:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//85/MTA-3414072/realme_realme-3-pro-smartphone--64gb--4gb-_full08.jpg",
+        img2:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//85/MTA-3414072/realme_realme-3-pro-smartphone--64gb--4gb-_full09.jpg",
+        category: "Handphone",
         price: 500000,
-        description: {
-            
-        }
+        description: "Masih di tahun yang sama 2019, Realme kembali memperkenalkan debut smartphone teranyar mereka yaitu Realme 3 Pro. Realme yang dikenal sebagai sub-brand dari OPPO dengan bangga menghadirkan smartphone yang ditenagai dapur pacu yang menjanjikan. Dengan berbekal prosesor Snapdragon tentu harapannya Realme 3 Pro dapat memberikan kecepatan yang maksimal. Dan menariknya disebutkan kecepatan chip octa-core Realme 3 Pro dapat memberikan kinerja hingga 2.2 GHz. Sementara untuk memperlancar pengalaman grafis yang mulus maka dititipkan juga mesin multi-core AI yang disandingkan bersamaan dengan GPU Adreno 616."
     },
     {
         id: "5",
         name: "Redmi Note 7",
         image: "https://d2giyh01gjb6fi.cloudfront.net/default/0002/83/thumb_182868_default_big.jpeg",
-        category: "Handphone",         
+        category: "Fashion Wanita",         
         price: 2277000,
         description: {
             
