@@ -23,15 +23,18 @@ class pageCategory extends Component {
                             <img src="https://www.static-src.com/4.39.0-12/resources/images/assets/breadcrumb-arrow.png" />
                             <a className="home">{this.category}</a>
                         </div>
+
                         <div className="sub-div2">
                             <br/>
                             <span className="span1">{this.category}</span>
                             <span className="span2">Daftar Harga {this.category}</span>
                         </div>
+
                         <div className="slide">
                             <SlideCat />
                         </div>
                     </div>
+                    
                     <div>
                     {this.pata.map(item => 
                         <div>
