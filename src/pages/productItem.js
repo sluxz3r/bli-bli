@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Data from '../data/data';
 import { Link } from 'react-router-dom';
+import KuponDiskon from '../component/kuponDiskon';
 import '../assets/productItem.css';
 
 class productItem extends Component {
@@ -64,13 +65,20 @@ class productItem extends Component {
                                 <button style={{backgroundColor:"#F99401"}}>BELI SEKARANG</button>
                                 <button style={{backgroundColor:"#0095DC"}}>TAMBAH KE BAG</button>
                             </div>
+                            <div style={{marginTop:"20px", paddingBottom:"20px"}}>
+                                <img style={{width:"480px"}} src="https://cdn1.imggmi.com/uploads/2019/7/10/37f7bcad9d3b440f492671e4ecdb346b-full.png" />
+                            </div>
                         </div>
+
+                        
 
                         <div className="prod-fitur">
                             
                         </div>
 
-                        <div className="prod-kupon">Kupon Diskon</div>
+                        <div className="prod-kupon">
+                            <KuponDiskon />
+                        </div>
 
                     </div>
 

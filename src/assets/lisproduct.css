@@ -1,11 +1,12 @@
 .recomendation {
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: #fff;
     box-shadow: 0 1px 2px 0 #cccccc;
     position: relative;
     background-color: #ffffff;
     padding: 10px 16px;
     margin-bottom: 1em;
+    box-shadow: 0 2px 4px 0 #cccccc;
 }
 
 .vuecarousel {

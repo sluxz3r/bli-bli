@@ -14,11 +14,12 @@ class ListProduct extends Component {
         return (
             <div className="recomendation row box">
                 <div className="boxheader">
-                    <h2>Produk Terlaris</h2>
+                    <h2 style={{fontWeight:"bold"}}>Produk Terlaris</h2>
                 </div>
                 <div className="product">
                     <div className="vuecarousel" role="listbox">
                         {dataRekomendasi.map(e => 
+                        <Link to={`/product/${e.id}`}  >
                             <div className="itemcarousel">
                                 <a>
                                     <div className="product-item">
@@ -33,6 +34,7 @@ class ListProduct extends Component {
                                     </div>
                                 </a>
                             </div>
+                        </Link>
                         )}
                     </div>
                     <div className="navigationbutton">
