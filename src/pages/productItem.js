@@ -40,12 +40,13 @@ class productItem extends Component {
                                 <p>Metode Pengiriman</p>
                             </div>
                             <div className="prod-div3">
-                                <p style={{color:"#f7931E"}}>{this.pata.price}</p>
+                                <p style={{color:"#f7931E"}}>Rp {this.pata.price}</p>
                                 <p>+ 35 poin Blibli Rewards</p>
                                 <p>Cicilan tanpa kartu kredit</p>
                                 <p>Kombinasi</p>
                                 <p>
-                                    <input type="radio"></input>
+                                    <label><input type="radio"></input>Pengiriman Langsung<br/>
+                                    <input type="radio"></input>Bayar di Tempat</label>
                                 </p>
                             </div>
                         </div>
@@ -53,13 +54,15 @@ class productItem extends Component {
                         <div className="prod-foto">Foto Tambahan</div>
 
                         <div className="prod-detail">
-                            <div>
-                                <span>Jumlah</span>
-                                <button>-</button><input type="number" /><button>+</button>
+                            <div style={{backgroundColor:"white"}}>
+                                <span className="jumlah">Jumlah</span>
+                                <span className="input-jumlah">
+                                    <button>-</button><input type="number"></input><button>+</button>
+                                </span>
                             </div>
-                            <div>
-                                <button>BELI SEKARANG</button>
-                                <button>TAMBAH KE BAG</button>
+                            <div className="button-pay">
+                                <button style={{backgroundColor:"#F99401"}}>BELI SEKARANG</button>
+                                <button style={{backgroundColor:"#0095DC"}}>TAMBAH KE BAG</button>
                             </div>
                         </div>
 
