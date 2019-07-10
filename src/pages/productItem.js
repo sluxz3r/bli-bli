@@ -3,6 +3,8 @@ import Data from '../data/data';
 import { Link } from 'react-router-dom';
 import KuponDiskon from '../component/kuponDiskon';
 import Listproduk from '../component/listproduk';
+import { Carousel } from 'react-responsive-carousel';
+import DemoCarousel from '../component/carouseldetil'
 import '../assets/productItem.css';
 
 class productItem extends Component {
@@ -31,6 +33,7 @@ class productItem extends Component {
                             {this.pata.name}
                         </div>
                         <div className="prod">
+                            {/* <DemoCarousel /> */}
                             <img className="prod-img" src={this.pata.image}></img>
                         </div>
                         <div className="prod-list">
