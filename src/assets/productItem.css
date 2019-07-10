@@ -116,7 +116,7 @@
 }
 
 .prod-kupon{
-    margin-top: 40px;
+    margin-top: 35px;
     padding: 5px 5px 5px 5px;
     width: 465px;
     height: 200px;
@@ -165,4 +165,10 @@
     margin-right: 25px; 
     height: 40px;
     width: 170px;
+}
+
+.prod-lihat{
+    padding-top: 10px;
+    width: 1233px;
+    height: 380px;
 }

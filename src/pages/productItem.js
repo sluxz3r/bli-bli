@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Data from '../data/data';
 import { Link } from 'react-router-dom';
 import KuponDiskon from '../component/kuponDiskon';
+import Listproduk from '../component/listproduk';
 import '../assets/productItem.css';
 
 class productItem extends Component {
@@ -70,8 +71,6 @@ class productItem extends Component {
                             </div>
                         </div>
 
-                        
-
                         <div className="prod-fitur">
                             
                         </div>
@@ -84,6 +83,9 @@ class productItem extends Component {
 
                     <div className="prod-rigth">
                         KOMPONEN RAHMAD
+                    </div>
+                    <div className="prod-lihat">
+                        <Listproduk />
                     </div>
                 </div>
             </div>

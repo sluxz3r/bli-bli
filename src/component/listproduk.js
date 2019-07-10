@@ -19,7 +19,7 @@ class ListProduct extends Component {
                 <div className="product">
                     <div className="vuecarousel" role="listbox">
                         {dataRekomendasi.map(e => 
-                        <Link to={`/product/${e.id}`}  >
+                        <Link to={`/product/${e.id}`} target="blank" >
                             <div className="itemcarousel">
                                 <a>
                                     <div className="product-item">
