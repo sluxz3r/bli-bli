@@ -1,0 +1,105 @@
+.body1{
+    border: 1px solid black;
+
+}
+
+.prod-div{
+    border-bottom: 1px solid #ccc;
+    height: 25px;
+    background-color:#fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.prod-div img {
+    margin-left: 5px;
+    height: 25px;
+    position: absolute;
+}
+
+.prod-div a {
+    margin: 0px 0px 0px 20px;
+    position: inherit;
+}
+
+.prod-div1{
+    border: 1px solid black;
+    width: 950px;
+    height: 890px;
+    border-bottom: 1px solid #ccc;
+    background-color:#fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 15px;
+    position: absolute;
+}
+
+.prod-rigth{
+    border: 1px solid black;
+    padding: 5px;
+    height: 920px;
+    width: 220px;
+    margin-left: 990px;
+
+}
+.prod-name{
+    border: 1px solid black;
+    height: 70px;
+}
+
+.cot{
+    display: flex;
+}
+
+.prod-img{
+    border: 1px solid black;
+    height: 425px;
+    width: 425px;
+    padding: 5px;
+    position: absolute;
+}
+
+.prod-list{
+    border: 1px solid black;
+    padding: 5px;
+    height: 380px;
+    width: 465px;
+    margin-left: 460px;
+}
+
+.prod-list p{
+    border-bottom: 1px solid #ccc;
+}
+
+.prod-detail{
+    border: 1px solid black;
+    padding: 5px;
+    height: 130px;
+    width: 465px;
+    margin-left: 460px;
+}
+
+.prod-foto{
+    border: 1px solid black;
+    height: 65px;
+    width: 425px;
+    padding: 5px;
+    position: absolute;
+}
+
+.prod-fitur{
+    border: 1px solid black;
+    width: 425px;
+    height: 280px;
+    padding: 5px;
+    position: absolute;
+}
+
+.prod-kupon{
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 5px 5px 5px 5px;
+    width: 465px;
+    height: 200px;
+    margin-left: 460px;
+}

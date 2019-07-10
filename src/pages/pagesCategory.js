@@ -32,9 +32,12 @@ class pageCategory extends Component {
                             <SlideCat />
                         </div>
                     </div>
- 
-                     <div>
-                        {this.pata.map(item => 
+
+
+
+                    <div>
+                    {this.pata.map(item => 
+
                         <div>
                             <img className="category-icon" src={item.image}/>
                             <p>{item.name}</p>
@@ -42,6 +45,7 @@ class pageCategory extends Component {
                         </div>
                         )}
                     </div>
+
             </div>
         );
     }
