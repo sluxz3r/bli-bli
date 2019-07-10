@@ -1,5 +1,5 @@
 .body1{
-    border: 1px solid black;
+   
 
 }
 
@@ -65,10 +65,28 @@
     height: 380px;
     width: 465px;
     margin-left: 460px;
+    background-color: white;
 }
 
 .prod-list p{
     border-bottom: 1px solid #ccc;
+    background-color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 20px 0px 30px 20px;
+    padding-bottom: 10px;
+}
+.prod-div2{
+   background-color: white;
+   width: 140px;
+   position: absolute;
+}
+
+.prod-div3{
+    background-color: white;
+    height: 380px;
+    width: 315px;
+    margin-left: 150px;
 }
 
 .prod-detail{

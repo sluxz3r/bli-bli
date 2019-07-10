@@ -52,16 +52,6 @@ const Data= [
         }
     },
     {
-        id: "6",
-        name: "Iphone Murah",
-        image: "https://www.att.com/catalog/en/idse/Apple/Apple%20iPhone%20X/Space%20Gray-hero-zoom.png",
-        category: "Handphone",         
-        price: "Rp4.300.000",
-        description: {
-            
-        }
-    },
-    {
         id: "7",
         name: "Peralatan Elektronik Analog",
         image: "https://cdn.idntimes.com/content-images/community/2018/04/7976332159-137e970c8c-b-844f7d54e4e704e1739da52fba329f3d_600x400.jpg",
@@ -222,16 +212,6 @@ const Data= [
         }
     },
     {
-        id:"23",
-        name: "Panduan Bermain Gobaksodor",
-        image: "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/12/7/26385711/26385711_7771cd91-ae2f-4171-9003-2171e0b8ca36_2048_2817.jpg",
-        category: "Tiket",
-        price: "Rp50.000",
-        description: {
-            
-        }
-    },
-    {
         id: "24",
         name: "SSD 125 GB",
         image: "https://images-na.ssl-images-amazon.com/images/I/8107%2BoAFSmL._SL1500_.jpg",
@@ -247,16 +227,6 @@ const Data= [
         image: "https://uksaah.com/wp-content/uploads/2018/10/011-min.png",
         category: "Komputer",
         price: "Rp85.000",
-        description: {
-            
-        }
-    },
-    {
-        id: "26",
-        name: "Tips Mengatasi Depresi Untuk Programmer",
-        image: "https://media.karousell.com/media/photos/products/2017/05/23/buku_android_programming_with_adt_bundle_untuk_beginner_1495512593_009c4a45.jpg",
-        category: "Komputer",
-        price: "Rp60.000",
         description: {
             
         }
