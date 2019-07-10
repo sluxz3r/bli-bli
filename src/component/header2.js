@@ -52,7 +52,7 @@ class Header2 extends Component{
                 <input className="search" type="text" placeholder="Apa yang anda cari hari ini ..?"></input>
                 <button className="buttonSearch" type="submit"><img src="https://autofrontier.co.id/img/iconsearch.png" /></button>
                 <div className="user">Hello Gusy!!</div>
-                <p><img src="https://massakublog.files.wordpress.com/2017/04/blibli-logo.png?w=532" /></p>                
+                <p className="pp"><img src="https://massakublog.files.wordpress.com/2017/04/blibli-logo.png?w=532" /></p>                
                 
             </div>
         );
