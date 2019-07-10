@@ -5,6 +5,7 @@ import KuponDiskon from '../component/kuponDiskon';
 import Listproduk from '../component/listproduk';
 import Deskripsi from '../component/deskripsi';
 import '../assets/productItem.css';
+import Rating from '../component/rating'
 
 class productItem extends Component {
     constructor(props) {
@@ -88,7 +89,7 @@ class productItem extends Component {
                     </div>
 
                     <div className="prod-rigth">
-                        KOMPONEN RAHMAD
+                        <Rating />
                     </div>
 
                     <div className="prod-lihat">
