@@ -96,6 +96,7 @@
     height: 130px;
     width: 465px;
     margin-left: 460px;
+    border-bottom: 1px solid #ccc;
 }
 
 .prod-foto{
@@ -115,12 +116,12 @@
 }
 
 .prod-kupon{
-    border: 1px solid black;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 5px 5px 5px 5px;
     width: 465px;
     height: 200px;
     margin-left: 460px;
+    box-shadow: 0 2px 4px 0 #cccccc;
 }
 
 .jumlah{
