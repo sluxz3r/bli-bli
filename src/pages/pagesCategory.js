@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SlideCat from '../component/slidecat';
 import {Link} from 'react-router-dom';
 import Data from '../data/data';
-import '../assets/subheader.css';
+import '../assets/pageCategory.css';
 
 class pageCategory extends Component {
     constructor(props) {
@@ -14,10 +14,10 @@ class pageCategory extends Component {
     render() {
         return (
                 <div className="body">
-                
+                 <div className="body1">
                     <div>
                         <div className="sub-div">
-                        <Link className="home" to='/'  >
+                        <Link className="home" to='/'>
                             <a >Home</a>
                         </Link>
                             <img src="https://www.static-src.com/4.39.0-12/resources/images/assets/breadcrumb-arrow.png" />
@@ -35,17 +35,24 @@ class pageCategory extends Component {
                         </div>
                     </div>
                     
-                    <div>
+                    <div className="cat-div1">
+                        <h2>Produk Kamu</h2>
                     {this.pata.map(item => 
-                        <div>
-                            <img src={item.image}/>
-                            {item.name}
+                   <Link to={`/product/${item.id}`}  >
+                        <div className="category-flex">
+                            <img className="category-icon" src={item.image}/>
+                            <p className="cat-p1">{item.name}</p>
+                            <p className="cat-p2">{item.price}</p>
                         </div>
-                        )}
+                    </Link>
+                    )}
                     </div>
 
-                      
+                    <div>
+                        <img className="kata" src="https://cdn1.imggmi.com/uploads/2019/7/10/949d18345adb728abd7180e72840f4e6-full.png" />
+                    </div>
                 </div>
+            </div>
         );
     }
 
