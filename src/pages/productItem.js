@@ -3,6 +3,7 @@ import Data from '../data/data';
 import { Link } from 'react-router-dom';
 import KuponDiskon from '../component/kuponDiskon';
 import Listproduk from '../component/listproduk';
+import '../assets/deskripsi.css';
 import '../assets/productItem.css';
 import Rating from '../component/rating'
 
@@ -11,6 +12,9 @@ class productItem extends Component {
         super(props);
         this.id = props.match.params.id;
         this.pata = Data.find(item => item.id === this.id)
+        this.state = {
+            qty : 1,
+        }
     }
 
     render() {
@@ -33,6 +37,7 @@ class productItem extends Component {
                             {this.pata.name}
                         </div>
                         <div className="prod">
+                            {/* <DemoCarousel /> */}
                             <img className="prod-img" src={this.pata.image}></img>
                         </div>
                         <div className="prod-list">
@@ -56,9 +61,9 @@ class productItem extends Component {
                         </div>
 
                         <div className="prod-foto">
-                            <img src={this.pata.img1} />
-                            <img src={this.pata.img2} />
-                            <img src={this.pata.img3} />
+                            <img className="mini" src={this.pata.img1} />
+                            <img className="mini" src={this.pata.img2} />
+                            <img className="mini" src={this.pata.img3} />
                         </div>
 
                         <div className="prod-detail">
@@ -69,7 +74,9 @@ class productItem extends Component {
                                 </span>
                             </div>
                             <div className="button-pay">
+                            <Link to={`/cart/${this.pata.id}`}  >
                                 <button style={{backgroundColor:"#F99401"}}>BELI SEKARANG</button>
+                            </Link>
                                 <button style={{backgroundColor:"#0095DC"}}>TAMBAH KE BAG</button>
                             </div>
                             <div style={{marginTop:"20px", paddingBottom:"20px"}}>
@@ -78,7 +85,27 @@ class productItem extends Component {
                         </div>
 
                         <div className="prod-fitur">
-                            
+                            <div className="product-feature">
+                                <div>Fitur Produk</div>
+                                <div>
+                                    <ul>
+                                        {this.pata.features.map(fitur =>
+                                            <li>{fitur}</li>)}
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="product-service">
+                                <div>Pelayanan Produk</div>
+                                <div>
+                                    <ul>
+                                        <li>
+                                        15 hari Pengembalian Produk <a>info</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
                         </div>
 
                         <div className="prod-kupon">
@@ -93,6 +120,23 @@ class productItem extends Component {
 
                     <div className="prod-lihat">
                         <Listproduk />
+                    </div>
+                    <div className="prod-des">
+                    <div>
+                <div className="des-prod">
+                    <span style={{color:"white"}}>Deskripsi</span>
+                    <span>Spesifikasi</span>
+                    <span>Diskusi</span>
+                    <span>Ulasan</span>
+                </div>
+                <div className="des-kiri">
+                    <h4>{this.pata.name}</h4>
+                    <p className="des-p">{this.pata.description}</p>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
                     </div>
                 </div>
             </div>
