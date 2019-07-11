@@ -37,6 +37,7 @@ class productItem extends Component {
                             {this.pata.name}
                         </div>
                         <div className="prod">
+                            {/* <DemoCarousel /> */}
                             <img className="prod-img" src={this.pata.image}></img>
                         </div>
                         <div className="prod-list">
@@ -60,9 +61,9 @@ class productItem extends Component {
                         </div>
 
                         <div className="prod-foto">
-                            <img src={this.pata.img1} />
-                            <img src={this.pata.img2} />
-                            <img src={this.pata.img3} />
+                            <img className="mini" src={this.pata.img1} />
+                            <img className="mini" src={this.pata.img2} />
+                            <img className="mini" src={this.pata.img3} />
                         </div>
 
                         <div className="prod-detail">
@@ -84,7 +85,28 @@ class productItem extends Component {
                         </div>
 
                         <div className="prod-fitur">
-                            
+                            <div className="product-feature">
+                                <div>Fitur Produk</div>
+                                <div>
+                                    <ul>
+                                        <li>gsrg</li>
+                                        <li>sgrg</li>
+                                        <li>gsrg</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="product-service">
+                                <div>Pelayanan Produk</div>
+                                <div>
+                                    <ul>
+                                        <li>
+                                        15 hari Pengembalian Produk <a>info</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
                         </div>
 
                         <div className="prod-kupon">

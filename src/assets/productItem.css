@@ -54,8 +54,8 @@
 }
 
 .prod-img{
-    height: 400px;
-    width: 425px;
+    max-height: 395px;
+    max-width: 425px;
     padding: 5px;
     position: absolute;
 
@@ -181,6 +181,57 @@
     height: 380px;
 }
 
+.product-feature {
+
+    margin-bottom: 20px;
+    font-size: 13px;
+    /* font-weight: bold; */
+    color: #333333;
+    margin-bottom: 5px;
+    display: block;
+    margin: 0;
+    padding: 0 0 0 15px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    line-height: 19.5px;
+    text-size-adjust: 100%;
+
+}
+  
+
+.product-feature ul {
+    padding-left: 0;
+    /* list-style-image: url(https://assets.ubuntu.com/sites/ubuntu/latest/u/img/favicon.ico); */
+}
+.product-feature li {
+    line-height: 1.71;
+    font-size: 14px;
+    list-style-type: disc;
+    display: block;
+}
+/* .product-feature li a {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 15px; 
+} */
+
+.mini {
+    max-width: 112px;
+    max-height: 112px;
+}
+
+.product-service {
+    padding: 0 0 0 15px;
+
+}
+
+/* .product-service ul {
+
+}
+
+.product-service li {
+    
+} */
 .prod-des {
     box-shadow: 0 2px 4px 0 #cccccc;
     height: 500px;
