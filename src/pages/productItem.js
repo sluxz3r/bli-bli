@@ -84,9 +84,8 @@ class productItem extends Component {
                                 <div>Fitur Produk</div>
                                 <div>
                                     <ul>
-                                        <li>gsrg</li>
-                                        <li>sgrg</li>
-                                        <li>gsrg</li>
+                                        {this.pata.features.map(fitur =>
+                                            <li>{fitur}</li>)}
                                     </ul>
                                 </div>
                             </div>
