@@ -24,6 +24,7 @@
     /* margin: 0 20px; */
     background-color: #fff;
     position: relative;
+    text-decoration: none;
 }
 .boxheader {
     box-sizing: border-box;
@@ -68,6 +69,8 @@
     /* margin-top: 8px; */
     font-size: 14px;
     font-family: Lato,sans-serif;
+    text-decoration: none;
+    color: black;
     /* position: relative; */
 
 }
