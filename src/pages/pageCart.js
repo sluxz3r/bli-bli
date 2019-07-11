@@ -29,7 +29,7 @@ class Cart extends Component{
                     </th><br />
                     <th style={{borderBottom:"2px solid #f1f1f1f8", paddingBottom:"10px",height:"100px", width:"1180px"}}>
                         <td style={{width:"600px"}}>
-                            <img style={{position:"absolute"}} src={this.pata.img1} />
+                            <img style={{position:"absolute", width:'90px', height:'90px'}} src={this.pata.img1} />
                             <span style={{paddingLeft:"150px", paddingRight:"50px"}}>{this.pata.name}</span>
                         </td>
                         <td style={{paddingRight:"300px", color:"#F37021"}}>Rp{this.pata.price}</td>
