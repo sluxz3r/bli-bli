@@ -4,6 +4,8 @@ import Data from '../data/data';
 import '../assets/pageCarts.css';
 
 
+
+
 class Cart extends Component{
     constructor(props) {
         super(props);
@@ -13,12 +15,38 @@ class Cart extends Component{
         this.state = {
             total: qty * this.pata.price
         }
-
+       
     }
+    text=(qty)=> {
+        if (isNaN(qty)){ qty = 0;
+        return qty + 1;
+      } else {
+        return qty;
+      }
+    };
 
-  
+   
+    tex=(total)=> {
+        if (isNaN(total)){
+        return total = this.pata.price;
+      } else {
+        return total;
+      }
+    };   
     render(){
         let qty = this.props.location.qty - 1;
+
+        let total = this.tex(this.state.total)
+        let	reverse = total.toString().split('').reverse().join(''),
+	        ribua 	= reverse.match(/\d{1,3}/g);
+        let ribuan	= ribua.join('.').split('').reverse().join('');
+
+        let tot     = this.pata.price
+        let	rever   = tot.toString().split('').reverse().join(''),
+	        ribu 	= rever.match(/\d{1,3}/g);
+        let rib	    = ribu.join('.').split('').reverse().join('');
+        
+
         return(
             <div className="body">
                 <div style={{marginTop:"10px", width:"1230px", backgroundColor:"white"}}>
@@ -39,8 +67,8 @@ class Cart extends Component{
                             <img style={{position:"absolute", width:'90px', height:'90px'}} src={this.pata.img1} />
                             <span style={{paddingLeft:"150px", paddingRight:"50px"}}>{this.pata.name}</span>
                         </td>
-                        <td style={{paddingRight:"300px", color:"#F37021"}}>Rp{this.pata.price}</td>
-                        <td style={{paddingRight:"120px", color:"#F37021"}}>{qty}</td>
+                        <td style={{paddingRight:"300px", color:"#F37021"}}>Rp {rib}</td>
+                        <td style={{paddingRight:"120px", color:"#F37021"}}>{this.text(qty)}</td>
                         <td>Hapus</td>
                     </th>
                 </div>
@@ -54,12 +82,12 @@ class Cart extends Component{
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAAiCAMAAADWIlHSAAAAUVBMVEX///+qq6txbG7s8fbc3Ny4t7mhosKgoJ9QUFDF1eR0krLj5OTFxMWQkJDQ0NBNdZe6xdyPp8qpuNAoUo3a6/XT3uttfbuBgIHr7OsKPXdTir9C6A7KAAABVElEQVQ4y+2S607DMAyFHce5Oklz2QV4/wfFHtNgTBrS4B87ahK77Rf3uIGnnvpBfcLceev93vtd341uB/REBMnTTD353r3M+tT7a9SutV9r+VfvtzW31SGvsa1tQD6k8ZoOmypvaTv07cBXbJpz+JzmW06yjJRlzmOXO2iQht/DmHlKrNcL/J0s2UfRGmOsn2mIeAktQDN30ILlxWG45FGJC0v3UDBahmS0EApYF6uTm8GdWD6hthUWZ/qe5a/+CNFp7rDW2GzFYwDEgFVZQ4qaRsbaoLtxY/gKV4xVaAZCKROd2LDQogVjilFXDYAaOAJywLeej9qz45k1KIoERoAC4IyoKOj4G+c+TNcKcGYdEjHrN+vQgiq1ANdyMTSti5XNmeVouNTLP9Jes/DFtNtGRxS/DvHEolMPURdz6iEJbyQDK3s9KnaPklQM/+bUP/VP9A4SvwzyTzXTVQAAAABJRU5ErkJggg==" />
 
                     </div>
-                    <div style={{height:"73px", padding:'5px', width:"387px", marginLeft:"700px"}}>
-                        <div style={{position:'absolute',width:"180px", height:'69px'}}>
+                    <div style={{height:"73px", padding:'15px', width:"387px", marginLeft:"700px", backgroundColor:'white'}}>
+                        <div style={{position:'absolute',width:"180px", height:'69px',backgroundColor:'white'}}>
                             <p style={{margin:'0px'}}>Total Belanja</p>
-                            <p style={{margin:'0px',fontWeight:'bold', fontSize:'16pt' , color:"#F37021"}}>Rp{this.state.total}</p>
+                            <p style={{margin:'0px',fontWeight:'bold', fontSize:'16pt' , color:"#F37021"}}>Rp {ribuan}</p>
                         </div>
-                        <Link to={{pathname:"/pay/", total:this.state.total}}  >
+                        <Link to={{pathname:"/pay/", total:this.tex(this.state.total)}}  >
                         <button style={{
                                         marginLeft:'190px', 
                                         height:'60px', 

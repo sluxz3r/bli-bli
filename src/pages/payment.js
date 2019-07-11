@@ -2,12 +2,12 @@ import React, {Component} from 'react';
 import '../assets/payment.css';
 
 class Payment extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render(){
         let total = this.props.location.total
+        let	reverse = total.toString().split('').reverse().join(''),
+	        ribua 	= reverse.match(/\d{1,3}/g);
+	    let ribuan	= ribua.join('.').split('').reverse().join('');
+        
         return(
             <div className="body">
                 <div className="pay-header">
@@ -36,7 +36,7 @@ class Payment extends Component {
                     <button> &#9883; Bayar Sekarang</button>
                     <div className="ring-total">
                         <span>Total Belanja</span>
-                        <span style={{paddingLeft:'120px'}}>Rp{total}</span>
+                        <span style={{paddingLeft:'120px'}}>Rp {ribuan}</span>
                         <h3>HARAP DI BAYAR!!!</h3>
                         <img style={{width:'220px', paddingLeft:'45px'}} src="https://cdn-images-1.medium.com/max/1200/1*7ugSMISUo8vYf9ILG6VmuQ.png" />
                     </div>

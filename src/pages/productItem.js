@@ -30,6 +30,10 @@ class productItem extends Component {
     }
 
     render() {
+        let total = this.pata.price
+        let	reverse = total.toString().split('').reverse().join(''),
+	        ribua 	= reverse.match(/\d{1,3}/g);
+        let ribuan	= ribua.join('.').split('').reverse().join('');
         return (
             <div className="body">
                 <div className="body1">
@@ -59,7 +63,7 @@ class productItem extends Component {
                                 <p>Metode Pengiriman</p>
                             </div>
                             <div className="prod-div3">
-                                <p style={{color:"#f7931E"}}>Rp {this.pata.price}</p>
+                                <p style={{color:"#f7931E"}}>Rp {ribuan}</p>
                                 <p>+ 35 poin Blibli Rewards</p>
                                 <p>Cicilan tanpa kartu kredit</p>
                                 <p>Kombinasi</p>
@@ -81,7 +85,7 @@ class productItem extends Component {
                                 <span className="jumlah">Jumlah</span>
                                 <span className="input-jumlah">
                                         <button onClick={() => this.minus()} className="myButton" type="submit" >-</button>
-                                        <input id="qty"></input>
+                                        <input className="inpud" id="qty" />
                                         <button onClick={() => this.plus()} className="myButton" type="submit">+</button>
                                 </span>
                             </div>

@@ -49,7 +49,7 @@ class Header2 extends Component{
                 <span className="wethe">
                     <p>We The Fest2019 |</p>
                 </span>
-                <Link to='/pay/'>
+                <Link to='/cart/'>
                 <li> <img src="https://apprecs.org/gp/images/app-icons/300/b2/com.gdn.blibli.mta.jpg" className="bag"></img> </li>
                 </Link>
                 <input className="search" type="text" placeholder="Apa yang anda cari hari ini ..?"></input>
