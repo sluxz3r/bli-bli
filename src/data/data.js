@@ -9,9 +9,13 @@ const Data= [
         category: "Handphone",         
         price: 150000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Prosesor : Octa-Core 1.6GHz',
+            'Layar 6.2 Inch',
+            'Kamera belakang 13.0 MP + 5.0 MP', 
+            'kamera depan 5.0 MP', 
+            'OS : Android 8.1 (Oreo)',
+            'Baterai : 3400 mAh',
+            'Tersedia dua slot SIM dan slot microSD'
         ],
         description:"Samsung Galaxy M10 merupakan smartphone yang sudah dibekali dengan prosesor Octa-Core 1.6GHz dengan layar 6.2 Inch. Smartphone ini juga dibekali dengan kamera belakang 13.0 MP + 5.0 MP, kamera depan 5.0 MP, serta baterai 3400 mAh. Samsung Galaxy M10 sudah berjalan pada OS terbaru yakni Android 8.1 (Oreo). Tersedia dua slot SIM dan slot microSD."
     },
@@ -25,9 +29,11 @@ const Data= [
         category: "Handphone",
         price: 200000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Sistem Operasi : iOS 10',
+            'Chip fusion A10',
+            "Kamera 12 MP & kamera FaceTime HD 7 MP",
+            "Memory RAM 3 GB, internal 32 GB",
+            "Ukuran Layar retina 4.7 Inch'"
         ],
         description:"iPhone 7, hadir dengan desain metal mewah yang terbalut dalam lima varian warna yang elegan dan berkelas. Menariknya, smartphone ini merupakan generasi iphone pertama yang bodinya dilengkapi dengan sertifikasi IP67, yang diyakini mampu membuatnya tahan akan cipratan air, tumpahan air, dan bahkan debu.Untuk tampilan layarnya sendiri, Apple membekali Iphone 7 dengan layar Retina HD 4,7 inch resolusi 1334 × 750 pixels yang mampu memberikan Anda tampilan gambar yang jelas dan cerah.  Jadi, semua warna yang tampil di layar akan terlihat akurat serasa melihatnya secara langsung dengan mata kepala sendiri.  Sebagai tambahan, tersemat pula fitur 3D Touch. Dengan menggunakan fitur ini, smartphone keluaran Apple ini diyakini dapat merespons dengan ketukan yang halus, sehingga Anda tidak hanya melihat efek tekanan saja, tetapi merasakannya juga."
     },
@@ -41,9 +47,11 @@ const Data= [
         category: "Handphone",         
         price: 2000000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Prosesor : Exynos 9810 Octa-Core (2.7GHz Quad + 1.7GHz Quad), 64 bit, 10nm',
+            'Display 6.4 Inch Dual Edge Super AMOLED 2960 x 1440 (Quad HD+) 516 ppi, 18.5:9 Corning Gorilla Glass 5.',
+            'Kamera :12 MP + 12 MP dan 8 MP, AF, f/1.7',
+            'Baterai : Non-removable Li-Ion 4000 mAh , Fast Charging on wired and wireless',
+            'Sistem Operasi : Android | 8.1 (Oreo), 64bit'
         ],
         description:"Belakangan sudah ramai dibicarakan jika Samsung segera merilis flagship phone terbarunya, Samsung Galaxy Note 9. Dan tepat di minggu ke-2 bulan Agustus smartphone ini resmi diluncurkan. Kabar terbarunya ponsel ini dibekali dengan beberapa pembaruan, semisal fungsi S Pen yang lebih atraktif, kapasitas memori penyimpanan yang lebih leluasa, dan tentunya kinerja prosesor yang powerful. Selain itu, masih ada hal lain yang terbilang cukup istimewa dari Smartphone Galaxy Note 9, diantaranya desain handphone yang kelihatan premium, panel layar OLED 6,3 inch dan kemera ponsel yang didukung kecerdasan buatan (AI). Begitupun dengan perbekalan baterai yang dititipkan berkapasitas 4000 mAh.  u"
     },
@@ -57,9 +65,11 @@ const Data= [
         category: "Handphone",
         price: 500000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Tipe Layar IPS LCD capacitive touchscreen, 16M colors',
+            'Resolusi Layar 1080 x 2340 pixels, 19.5:9 ratio',
+            `Kamera Belakang 16 MP, f/1.7, 1/2.6", 1.22µm, Dual Pixel PDAF 5 MP, f/2.4, depth sensor, Kamera Depan 25 MP, f/2.0, 1/2.8", 0.8µm`,
+            'Prosessor : Qualcomm SDM710 Snapdragon 710',
+            'OS : Android 9.0 (Pie)'
         ],
         description: "Masih di tahun yang sama 2019, Realme kembali memperkenalkan debut smartphone teranyar mereka yaitu Realme 3 Pro. Realme yang dikenal sebagai sub-brand dari OPPO dengan bangga menghadirkan smartphone yang ditenagai dapur pacu yang menjanjikan. Dengan berbekal prosesor Snapdragon tentu harapannya Realme 3 Pro dapat memberikan kecepatan yang maksimal. Dan menariknya disebutkan kecepatan chip octa-core Realme 3 Pro dapat memberikan kinerja hingga 2.2 GHz. Sementara untuk memperlancar pengalaman grafis yang mulus maka dititipkan juga mesin multi-core AI yang disandingkan bersamaan dengan GPU Adreno 616."
     },
@@ -73,11 +83,13 @@ const Data= [
         category: "Fashion Wanita",         
         price: 2277000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Display : 6.3 Inch, 1080 x 2340 pixels',
+            'Prosessor : Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)',
+            'Main camera Dual : 48 MP & 5 MP serta selfie camera : 13 MP',
+            'OS : Android 9.0 (Pie)',
+            'Baterai : 4000 mAh'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Xiaomi resmi memperkenalkan smartphone entry-level terbarunya yaitu Redmi Note 7. Dengan membawa nuasa yang lebih glamour smartphone ini juga turut dipersenjatai spec yang terbilang mumpuni. Sebut saja dibagian jantung pacu ponsel telah ditenagai dengan CPU octa core yang diduetkan dengan GPU Adreno 512. Begitupun dengan besaran memori RAM yang dititipkan antara lain 4GB / 6GB guna mendukung aktivitas multitasking dengan lancar. "
     },
     {
         id: "7",
@@ -89,9 +101,11 @@ const Data= [
         category: "Peralatan Elektronik",
         price: 350000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            "Kamera Polaroid",
+            'Didesain clasic',
+            'Dilengkapi dengan fitur flash elektronik otomatis yang memungkinkan Anda untuk mengambil foto dalam cahaya rendah',
+            'Memiliki cermin yang ideal untuk digunakan foto selfie',
+            'LCD film counter & shoot mode display'
         ],
         description: "ykbiubasjkffbabf hadbhsb fbahdfab"
     },
@@ -105,11 +119,13 @@ const Data= [
         category: "Fashion Wanita",
         price: 180000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Matras Yoga',
+            'Tahan lama, mudah di gulung & ringan untuk di bawa',
+            'Aman, nyaman, dan tidak licin saat digunakan',
+            'Ideal dapat digunakan untuk mountain climbing atau pun untuk sebagai alas yoga',
+            'Material : Karet spon', 'Dimensi : 60 x 200 x 0.4 cm'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Acon Adventure Spon Matras Yoga - Hitam merupakan matras yoga berbahan spon karet berkualitas, serta tahan lama, mudah di gulung & ringan untuk di bawa. Dirancang aman, nyaman, dan tidak licin saat digunakan, sehingga ideal dapat digunakan untuk mountain climbing atau pun untuk sebagai alas yoga"
     },
     {
         id: "9",
@@ -121,11 +137,27 @@ const Data= [
         category: "Handphone",         
         price: 450000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Mini SIM',
+            'Layar : 1.45 Inch',
+            'Tombol input alfanumerik',
+            'Kapasitas baterai : 800 mAh',
+            'Radio FM dan torch light'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: `Nokia 105 DS
+        warna White
+        
+        Garansi Resmi 1 Tahun
+        
+        Spesifikasi:
+        Layar 1.8"
+        OS Nokia Series 30+
+        RAM 4MB
+        ROM 4MB
+        Dual SIM (Mini) GSM
+        Battery 800mAh (Removable)
+        
+        Semua Retur / Pengembalian Barang Harus Sesuai dengan yang dikirim (Dus, Imei, Aksesoris, dll)
+        Dan dengan kondisi baru seperti dikirim (tidak boleh ada kesalahan pengguna seperti kena air, terjatuh, baret, lecet, dll)`
     },
     {
         id: "10",
@@ -137,11 +169,13 @@ const Data= [
         category: "Fashion Pria",
         price: 120000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Dumbbell',
+            'Didesain simple, elegan, dan sporty',
+            'Praktis digunakan sehingga nyaman dan mudah untuk dipakai serta tahan lama',
+            'Berfungsi untuk membantu olahraga Anda dalam pembentukan tubuh, meningkatkan kekuatan otot, serta meningkatkan keseimbangan dan kordinasi tubuh',
+            'Terbuat dari besi yang dilapisi karet bagian luarnya, sehingga tidak berisik saat diletakkan dengan tenaga atau dibanting sekalipun'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "iReborn Dumbbell Barbel Karet merupakan dumbbell berkualitas yang didesain simple, elegan, dan sporty serta praktis digunakan sehingga nyaman dan mudah untuk dipakai serta tahan lama. Dumbell ini berfungsi untuk membantu olahraga Anda dalam pembentukan tubuh, meningkatkan kekuatan otot, serta meningkatkan keseimbangan dan kordinasi tubuh. Terbuat dari besi yang dilapisi karet bagian luarnya, sehingga tidak berisik saat diletakkan dengan tenaga atau dibanting sekalipun."
     },
     {
         id: "11",
@@ -153,11 +187,13 @@ const Data= [
         category: "Fashion Wanita",
         price: 80000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Long skirt',
+            'Didesain chic',
+            'Elastic waistband',
+            'Black slit',
+            'Material : Scuba wedges'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Rok  Span Wedges Rok - Black, long skirt berbahan scuba wedges yang didesain chic dengan elastic waistband dan black slit."
     },
     {
         id: "12",
@@ -169,11 +205,14 @@ const Data= [
         category: "Fashion Wanita",
         price: 50000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Bando anak',
+            'Untuk membuat penampilan buah hati yang feminin',
+            'Menambah kesan girly juga centil pada si kecil',
+            'Nyaman dikepala',
+            'Produk original berlisensi'
+
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Frozen Hairbands Bando Anak - Pink, bando anak untuk membuat penampilan buah hati yang feminin dengan menyematkan bandana berdesain renda dalam nuansa warna merah muda untuk terapkan kesan girly juga centil pada si kecil."
     },
     {
         id: "13",
@@ -185,11 +224,12 @@ const Data= [
         category: "Fashion Pria",
         price: 35000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Handuk',
+            'Berbahan combed cotton yang didesain comfy',
+            'Antimicrobial protection',
+            'Ideal digunkan untuk orang dewasa, remaja, dan anak-anak'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Terry Palmer Concept Enchanted Handuk [uk.70 x 135 cm] merupakan handuk mandi dewasa berbahan combed cotton yang didesain comfy. Handuk mandi ini memiliki antimicrobial sehingga aman dan nyaman untuk digunakan. Ideal digunkan untuk orang dewasa, remaja, dan anak-anak."
     },
     {
         id: "14",
@@ -201,11 +241,9 @@ const Data= [
         category: "Fashion Pria",
         price: 3000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Atlas Kembang Sarung Pria - Hitam [AS IDM KMB] merupakan sarung berbahan teteron rayon yang didesian trendy & comfy. Ideal untuk melengkapi perlengkapan sholat Anda.'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Sarung ATLAS Idaman Kembang Diproduksi oleh PT. Bahaestex, Sarung Motif trendi dan istimewa dengan motif kembang mewujudkan kebutuhan yg sesuai dengan keunikan konsumen. Atlas idaman kembang memadukan keseimbangan akan keserasian warna dalam kerapatan benang dan keindahan motif. Sarung Dewasa dengan bahan Tetoron Rayon yang lembut dan adem ini nyaman dipakai dan keawetanya tak diragukan lagi.. Sarung khas Atlas dengan perpaduan motif Kembang. Dibalut dengan kemasan box berukuran 25x15x5 cm Anda bisa membeli sarung yang SUPER keren ini di Etalase kami Sarung ATLAS Idaman Kembang Stock Tersedia, silahkan langsung order Hari Sabtu dan Ahad Kami libur (juga tanggal merah), transaksi pada hari tersebut akan di proses pada hari senin. Untuk Transaksi yang sudah melakukan pembayaran sebelum jam 2 siang dan sudah diproses oleh kami, maka transaksi tersebut bisa dipastikan akan dikirim langsung pada hari tersebut.. hanya saja kami biasa input resi pada hari setelahnya dikarenakan info resi kami dapatkan dari kurir tidak langsung di hari pengiriman Cara Perawatan / cuci: Gunakan air dingin untuk mencuci sarung dan selalu posisikan bagian dalam menjadi di luar ketika dicuci. Ketika sudah bersih, keringkan dulu menggunakan mesin pengering. Jemur kain sarung di tempat yang teduh dan hindarkan dari paparan sinar matahari langsung. Begitu kering, angkat, lipat, dan simpan sarung di tempat yang dingin dan kering. Segera Klik Beli dan dapatkan sarung berkualitas Atlas, Resmi Bisa Santai Bisa … >. Size Measurement : Panjang 130 cm Lebar 103 cm"
     },
     {
         id: "15",
@@ -217,11 +255,13 @@ const Data= [
         category: "Fashion Pria",
         price: 99000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Sepatu olahraga',
+            'Detail eyelet dan aksen mesh pada upper',
+            'Merry Mesh EVA yang lembut dan empuk untuk kaki Anda',
+            'Rubber outsole yang fleksibel, ringan dan traksi saat dipakai',
+            'Material : Synthetic mesh'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "NIKE Lunar Converge Running Shoes Sepatu Olahraga Pria [852462008], sepatu olahraga berbahan synthetic mesh yang didesan sporty dengan detail eyelet dan aksen mesh pada upper memberikan breathability yang optimal untuk Anda saat sedang berolahraga. Sockliner berbahan dasar Merry Mesh EVA yang lembut dan empuk untuk kaki Anda serta rubber outsole yang fleksibel, ringan dan traksi saat dipakai. Ideal untuk olahraga lari, senam, fitness, gym atau untuk sehari-hari."
     },
     {
         id: "16",
@@ -233,9 +273,9 @@ const Data= [
         category: "Tiket",
         price: 780000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Cartridge game',
+            'Kompatibel untuk Nintendo Switch',
+            'Anda dapat membawa dan memainkan game-game ini kapanpun dan dimanapun saja'
         ],
         description: "ykbiubasjkffbabf hadbhsb fbahdfab"
     },
@@ -249,11 +289,13 @@ const Data= [
         category: "Tiket",
         price: 20000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Board game',
+            'Didesain fun & playful untuk anak usia 13 tahun keatas',
+            'Dapat dimainkan 2-6 pemain',
+            'Waktu bermain hingga 90 menit',
+            'Material : Berkualitas'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "MONOPOLIS Mega Man The Board Game, Board game berbahan berkualitas yang didesain fun & playful untuk anak usia 13 tahun keatas. Dapat dimainkan 2-6 pemain dengan waktu bermain hingga 90 menit. Mega Man: The Board Game, dibuat dan dilisensikan oleh Jasco Games, membawa semua kegembiraan dan kesenangan yang ditemukan dalam seri video game klasik ke atas meja. Diciptakan untuk peringatan 25 tahun karakter, Mega Man: The Board Game adalah permainan papan 2-6 pemain di mana pemain mengendalikan karakter mereka dan pasukan Dr. Wily, idealnya untuk menghambat kemajuan pemain lain. Setelah menentukan siapa yang lebih dulu, pemain memilih tahap Robot Master di mana mereka ingin memulai permainan. Pada giliran Anda, balik kartu tantangan untuk mengungkapkan tantangan pertama Anda. "
     },
     {
         id: "18",
@@ -265,11 +307,13 @@ const Data= [
         category: "Tiket",
         price: 250,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Permainan karambol',
+            'Dengan penambahan karakter monster beserta skill-skill yang unik yang membuat permainan menjadi lebih seru',
+            'Cocok sebagai permainan keluarga, dan mampu menjadi mainan edukatif bagi anak',
+            'membantu dalam pertumbuhan motorik',
+            'Mengajak anak agar bisa berpikir lebih strategis, praktis, dan bersikap sportif'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Monster-X Starter Set Board Games adalah permainan karambol yang dimodernisasi dengan penambahan karakter monster beserta skill-skill yang unik yang membuat permainan menjadi lebih seru. Cocok sebagai permainan keluarga, dan mampu menjadi mainan edukatif bagi anak, membantu dalam pertumbuhan motorik, mengajak anak agar bisa berpikir lebih strategis , praktis, dan bersikap sportif."
     },
     {
         id: "19",
@@ -281,11 +325,13 @@ const Data= [
         category: "Komputer",
         price: 5170000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Layar : 15.6 Inch FHD (1920 x 1080), IPS Anti-Glare LED-Backlit Display',
+            'Prosesor : Intel Core i5-8300H (Quad-Core, 8MB Cache, up to 4.0GHz w/ Turbo Boost)',
+            'Tipe Grafis : Nvidia GeForce GTX 1050 with 4GB GDDR5 graphics memory',
+            'Interface : 1x 2-in-1 SD / MicroMedia card, 2x SuperSpeed USB 3.1 Type-A, 1x USB 2.0, 1x Power/DC-in Jack, 1x HDMI 2.0, 1x Gigabit Ethernet RJ-45, 1x Headphone/Mic',
+            'Sistem Operasi : Windows 10'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Dell G3 3579 Loki G merupakan series gaming notebook yang didesain dengan nuansa premium. Jadi kemanapun Anda pergi laptop gaming ini siap menemani. Layaknya laptop gaming pada umumnya, Dell menggandeng prosesor Intel Generasi ke-8 dan juga sistem pengolah grafis NVIDIA GeForce untuk pengalaman gaming yang luar biasa. Bahkan secara resmi Dell telah memasangkan sistem operasi Windows 10 untuk mendukung game-game beresolusi tinggi yang membutuhkan DirectX 12."
     },
     // {
     //     id: "20",
@@ -313,11 +359,19 @@ const Data= [
         category: "Tiket",
         price: 7000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Pengembang : Rainbow Studios',
+            'Penerbit : THQ Nordic GmbH',
+            'Regional 2',
+            'Released date : 25 Juni 2019',
+            'Dapat dimainkan multiplayer'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: `Truk Sungguhan. Tindakan nyata. Monster Jam! Monster Jam Steel Titans menghadirkan pengalaman Monster Jam yang lengkap untuk dinikmati semua orang!
+
+        Semua truk, aksi, stadion, balap, dan udara besar dalam satu pertandingan! Bermain dalam berbagai mode permainan termasuk Stadium dan Balap luar, berbagai Tantangan Stunt dan mode Penghancuran!
+        
+        Tampil menonjol di stadion dengan satu dari empat, kulit truk Monster Jam eksklusif: versi khusus Grave Digger, El Toro Loco, Dragon dan Megalodon!
+        
+        Features`
     },
     {
         id: "22",
@@ -329,11 +383,13 @@ const Data= [
         category: "Komputer",
         price: 85000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Frekuensi Dasar Prosesor : 3.20 GHz',
+            'Jenis Memori : DDR3-1333, DDR3L-1333 @ 1.5V',
+            'Bandwidth Memori Maks : 21.3 GB/s',
+            'Grafis Prosesor ‡ : Intel® HD Graphics untuk Prosesor Intel® Generasi ke-4',
+            'Frekuensi Dasar Grafik : 350 MHz'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Intel Pentium G3250 Prosesor, hadir dengan grafis Intel® HD Graphics untuk Prosesor Intel® Generasi ke-4, frekuensi Dasar Prosesor 3.20 GHz, bandwidth Memori Maks : 21.3 GB/s, dan frekuensi dasar grafik 350 MHz."
     },
     {
         id: "24",
@@ -345,11 +401,13 @@ const Data= [
         category: "Komputer",
         price: 50000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'Hard disk',
+            'Capacity : 480 GB',
+            'Read Speed : up to 535 MB/s',
+            'Write Speed : up to 445 MB/s',
+            'Interface : SATA Revision 3.0 (6 Gb/s)'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Sandisk SSD Plus merupakan drive andalan untuk meningkatkan kinerja desktop PC/laptop. Hal itu dibuktikan dengan meningkatkan performa laptop saat memulai booting, membuka aplikasi, mentransfer data, atau bahkan saat mematikan perangkat. Selain menawarkan kinerja super cepat, pengguna juga telah dibekali dashboard khusus sehingga nantinya akan lebih mudah melakukan pemantauan status memori penyimpanan. "
     },
     {
         id: "25",
@@ -361,11 +419,13 @@ const Data= [
         category: "Komputer",
         price: 85000,
         features: [
-            'uhbuhbugbyhgby',
-            'iuniunuynuh',
-            'inhnhnuu uu'
+            'USB Flash Disk',
+            'Capacity: 32 GB',
+            'Read Speed: up to 150 MB/s',
+            'Interface: USB Type-C and USB Type-A connectors; USB 3.1 (Gen 1)',
+            'Dengan cepat mentransfer file antar perangkat dengan kecepatan tinggi USB 3.1 hingga 150MB / s1'
         ],
-        description: "ykbiubasjkffbabf hadbhsb fbahdfab"
+        description: "Sandisk SDDDC2-032G-G46 Dual Drive USB Type C USB Flas Disk [32 GB], mudah mengosongkan ruang pada smartphone Anda atau dengan cepat mentransfer file antar perangkat dengan kecepatan tinggi USB 3.1 hingga 150MB / s1. Dengan konektor USB Type-C ™ yang dapat dibalik dan konektor USB tradisional, SanDisk Ultra® Dual Drive USB Type-C ™ memungkinkan Anda mentransfer file dengan cepat dan mudah antara smartphone, tablet dan komputer. Ditambah lagi aplikasi SanDisk® Memory Zone untuk Android ™ (tersedia di Google Play ™) 3 membantu Anda mengelola memori perangkat dan konten Anda. The SanDisk Ultra Dual Drive USB Tipe-C adalah penghubung yang sempurna antara perangkat USB Tipe C Anda yang baru dan perangkat Anda dengan port USB tradisional."
     }
 ]
 
