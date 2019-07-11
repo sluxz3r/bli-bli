@@ -13,15 +13,26 @@ class productItem extends Component {
         this.id = props.match.params.id;
         this.pata = Data.find(item => item.id === this.id)
         this.state = {
-            qty : 1,
+            value : 1
         }
+    }
+
+    plus=() => {
+        let currentValue=this.state.value
+        this.setState({value : currentValue + 1})
+        document.getElementById("qty").value = this.state.value;
+    }
+
+    minus=() => {
+        let currentValue=this.state.value
+        this.setState({value : currentValue - 1})
+        document.getElementById("qty").value = this.state.value;
     }
 
     render() {
         return (
             <div className="body">
                 <div className="body1">
-                    
                     <div className="prod-div">
                         <Link className="home" to='/'  >
                             <a >Home</a>
@@ -37,7 +48,6 @@ class productItem extends Component {
                             {this.pata.name}
                         </div>
                         <div className="prod">
-                            {/* <DemoCarousel /> */}
                             <img className="prod-img" src={this.pata.image}></img>
                         </div>
                         <div className="prod-list">
@@ -70,11 +80,13 @@ class productItem extends Component {
                             <div style={{backgroundColor:"white"}}>
                                 <span className="jumlah">Jumlah</span>
                                 <span className="input-jumlah">
-                                    <button>-</button><input type="number"></input><button>+</button>
+                                        <button onClick={() => this.minus()} className="myButton" type="submit" >-</button>
+                                        <input id="qty"></input>
+                                        <button onClick={() => this.plus()} className="myButton" type="submit">+</button>
                                 </span>
                             </div>
                             <div className="button-pay">
-                            <Link to={`/cart/${this.pata.id}`}  >
+                            <Link to={{pathname:`/cart/${this.pata.id}`,qty:this.state.value, id:this.pata.id }}  >
                                 <button style={{backgroundColor:"#F99401"}}>BELI SEKARANG</button>
                             </Link>
                                 <button style={{backgroundColor:"#0095DC"}}>TAMBAH KE BAG</button>
