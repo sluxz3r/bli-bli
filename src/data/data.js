@@ -6,7 +6,8 @@ const Data= [
         img1:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//93/MTA-3196263/samsung_samsung-galaxy-m10-smartphone---charcoal-black_full03.jpg",
         img2:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//93/MTA-3196263/samsung_samsung-galaxy-m10-smartphone---charcoal-black_full04.jpg",
         img3:"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/thumbnail//93/MTA-3196263/samsung_samsung-galaxy-m10-smartphone---charcoal-black_full05.jpg",
-        category: "Handphone",         
+        category: "Handphone",   
+        qty:1,      
         price: 5150000,
         description:"Samsung Galaxy M10 merupakan smartphone yang sudah dibekali dengan prosesor Octa-Core 1.6GHz dengan layar 6.2 Inch. Smartphone ini juga dibekali dengan kamera belakang 13.0 MP + 5.0 MP, kamera depan 5.0 MP, serta baterai 3400 mAh. Samsung Galaxy M10 sudah berjalan pada OS terbaru yakni Android 8.1 (Oreo). Tersedia dua slot SIM dan slot microSD."
     },

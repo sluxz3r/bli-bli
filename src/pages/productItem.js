@@ -12,6 +12,9 @@ class productItem extends Component {
         super(props);
         this.id = props.match.params.id;
         this.pata = Data.find(item => item.id === this.id)
+        this.state = {
+            qty : 1,
+        }
     }
 
     render() {
@@ -70,7 +73,9 @@ class productItem extends Component {
                                 </span>
                             </div>
                             <div className="button-pay">
+                            <Link to={`/cart/${this.pata.id}`}  >
                                 <button style={{backgroundColor:"#F99401"}}>BELI SEKARANG</button>
+                            </Link>
                                 <button style={{backgroundColor:"#0095DC"}}>TAMBAH KE BAG</button>
                             </div>
                             <div style={{marginTop:"20px", paddingBottom:"20px"}}>
