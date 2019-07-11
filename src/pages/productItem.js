@@ -3,7 +3,7 @@ import Data from '../data/data';
 import { Link } from 'react-router-dom';
 import KuponDiskon from '../component/kuponDiskon';
 import Listproduk from '../component/listproduk';
-import Deskripsi from '../component/deskripsi';
+import '../assets/deskripsi.css';
 import '../assets/productItem.css';
 import Rating from '../component/rating'
 
@@ -123,7 +123,21 @@ class productItem extends Component {
                         <Listproduk />
                     </div>
                     <div className="prod-des">
-                        <Deskripsi />
+                    <div>
+                <div className="des-prod">
+                    <span style={{color:"white"}}>Deskripsi</span>
+                    <span>Spesifikasi</span>
+                    <span>Diskusi</span>
+                    <span>Ulasan</span>
+                </div>
+                <div className="des-kiri">
+                    <h4>{this.pata.name}</h4>
+                    <p className="des-p">{this.pata.description}</p>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
                     </div>
                 </div>
             </div>
