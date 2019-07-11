@@ -16,8 +16,8 @@ class Category extends Component{
                     {DataCategory.map( item =>
                         <Link to={`/category/${item.category}`} >
                             <div className="cat-a">
-                            <img className="cat-img" src={item.img} />
-                            <p className="cat-p">{item.category}</p>
+                                <img className="cat-img" src={item.img} />
+                                <p className="cat-p">{item.category}</p>
                             </div>
                         </Link>
                     )}
