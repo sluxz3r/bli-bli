@@ -7,11 +7,18 @@ import '../assets/pageCarts.css';
 class Cart extends Component{
     constructor(props) {
         super(props);
+        let qty = this.props.location.qty - 1;
         this.id = props.match.params.id;
         this.pata = Data.find(item => item.id === this.id)
+        this.state = {
+            total: qty * this.pata.price
+        }
+
     }
+
   
     render(){
+        let qty = this.props.location.qty - 1;
         return(
             <div className="body">
                 <div style={{marginTop:"10px", width:"1230px", backgroundColor:"white"}}>
@@ -33,7 +40,7 @@ class Cart extends Component{
                             <span style={{paddingLeft:"150px", paddingRight:"50px"}}>{this.pata.name}</span>
                         </td>
                         <td style={{paddingRight:"300px", color:"#F37021"}}>Rp{this.pata.price}</td>
-                        <td style={{paddingRight:"120px", color:"#F37021"}}>{this.pata.qty}</td>
+                        <td style={{paddingRight:"120px", color:"#F37021"}}>{qty}</td>
                         <td>Hapus</td>
                     </th>
                 </div>
@@ -50,8 +57,9 @@ class Cart extends Component{
                     <div style={{height:"73px", padding:'5px', width:"387px", marginLeft:"700px"}}>
                         <div style={{position:'absolute',width:"180px", height:'69px'}}>
                             <p style={{margin:'0px'}}>Total Belanja</p>
-                            <p style={{margin:'0px',fontWeight:'bold', fontSize:'16pt' , color:"#F37021"}}>Rp{this.pata.price}</p>
+                            <p style={{margin:'0px',fontWeight:'bold', fontSize:'16pt' , color:"#F37021"}}>Rp{this.state.total}</p>
                         </div>
+                        <Link to={{pathname:"/pay/", total:this.state.total}}  >
                         <button style={{
                                         marginLeft:'190px', 
                                         height:'60px', 
@@ -62,6 +70,7 @@ class Cart extends Component{
                                         fontSize:"16pt",
                                         color:'white'
                                         }}>Checkout</button>
+                        </Link>
                     </div>
                 </div>
             </div>
