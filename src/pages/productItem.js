@@ -3,7 +3,7 @@ import Data from '../data/data';
 import { Link } from 'react-router-dom';
 import KuponDiskon from '../component/kuponDiskon';
 import Listproduk from '../component/listproduk';
-import Deskripsi from '../component/deskripsi';
+import '../assets/deskripsi.css';
 import '../assets/productItem.css';
 import Rating from '../component/rating'
 
@@ -13,15 +13,30 @@ class productItem extends Component {
         this.id = props.match.params.id;
         this.pata = Data.find(item => item.id === this.id)
         this.state = {
-            qty : 1,
+            value : 1
         }
     }
 
+    plus=() => {
+        let currentValue=this.state.value
+        this.setState({value : currentValue + 1})
+        document.getElementById("qty").value = this.state.value;
+    }
+
+    minus=() => {
+        let currentValue=this.state.value
+        this.setState({value : currentValue - 1})
+        document.getElementById("qty").value = this.state.value;
+    }
+
     render() {
+        let total = this.pata.price
+        let	reverse = total.toString().split('').reverse().join(''),
+	        ribua 	= reverse.match(/\d{1,3}/g);
+        let ribuan	= ribua.join('.').split('').reverse().join('');
         return (
             <div className="body">
                 <div className="body1">
-                    
                     <div className="prod-div">
                         <Link className="home" to='/'  >
                             <a >Home</a>
@@ -37,7 +52,6 @@ class productItem extends Component {
                             {this.pata.name}
                         </div>
                         <div className="prod">
-                            {/* <DemoCarousel /> */}
                             <img className="prod-img" src={this.pata.image}></img>
                         </div>
                         <div className="prod-list">
@@ -49,7 +63,7 @@ class productItem extends Component {
                                 <p>Metode Pengiriman</p>
                             </div>
                             <div className="prod-div3">
-                                <p style={{color:"#f7931E"}}>Rp {this.pata.price}</p>
+                                <p style={{color:"#f7931E"}}>Rp {ribuan}</p>
                                 <p>+ 35 poin Blibli Rewards</p>
                                 <p>Cicilan tanpa kartu kredit</p>
                                 <p>Kombinasi</p>
@@ -70,11 +84,13 @@ class productItem extends Component {
                             <div style={{backgroundColor:"white"}}>
                                 <span className="jumlah">Jumlah</span>
                                 <span className="input-jumlah">
-                                    <button>-</button><input type="number"></input><button>+</button>
+                                        <button onClick={() => this.minus()} className="myButton" type="submit" >-</button>
+                                        <input className="inpud" id="qty" />
+                                        <button onClick={() => this.plus()} className="myButton" type="submit">+</button>
                                 </span>
                             </div>
                             <div className="button-pay">
-                            <Link to={`/cart/${this.pata.id}`}  >
+                            <Link to={{pathname:`/cart/${this.pata.id}`,qty:this.state.value, id:this.pata.id }}  >
                                 <button style={{backgroundColor:"#F99401"}}>BELI SEKARANG</button>
                             </Link>
                                 <button style={{backgroundColor:"#0095DC"}}>TAMBAH KE BAG</button>
@@ -122,7 +138,21 @@ class productItem extends Component {
                         <Listproduk />
                     </div>
                     <div className="prod-des">
-                        <Deskripsi />
+                    <div>
+                <div className="des-prod">
+                    <span style={{color:"white"}}>Deskripsi</span>
+                    <span>Spesifikasi</span>
+                    <span>Diskusi</span>
+                    <span>Ulasan</span>
+                </div>
+                <div className="des-kiri">
+                    <h4>{this.pata.name}</h4>
+                    <p className="des-p">{this.pata.description}</p>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
                     </div>
                 </div>
             </div>

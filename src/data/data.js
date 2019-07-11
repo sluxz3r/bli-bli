@@ -128,38 +128,6 @@ const Data= [
         description: "Acon Adventure Spon Matras Yoga - Hitam merupakan matras yoga berbahan spon karet berkualitas, serta tahan lama, mudah di gulung & ringan untuk di bawa. Dirancang aman, nyaman, dan tidak licin saat digunakan, sehingga ideal dapat digunakan untuk mountain climbing atau pun untuk sebagai alas yoga"
     },
     {
-        id: "9",
-        name: "Nokia Batang",
-        image: "http://1.bp.blogspot.com/-b4JxSvi7Ydw/UH4-rXv53cI/AAAAAAAACHs/obOq388qMXE/s1600/IMG01398-20121017-0941.jpg",
-        img1:"http://1.bp.blogspot.com/-b4JxSvi7Ydw/UH4-rXv53cI/AAAAAAAACHs/obOq388qMXE/s1600/IMG01398-20121017-0941.jpg",
-        img2:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw6tmHCANl-KSmuNEDmIjK6LXZRE8y8QT0_u5pTpYH86r4o2cW",
-        img3:"https://apollo-singapore.akamaized.net/v1/files/ahivgkhp3khj-IN/image;s=850x0",
-        category: "Handphone",         
-        price: 450000,
-        features: [
-            'Mini SIM',
-            'Layar : 1.45 Inch',
-            'Tombol input alfanumerik',
-            'Kapasitas baterai : 800 mAh',
-            'Radio FM dan torch light'
-        ],
-        description: `Nokia 105 DS
-        warna White
-        
-        Garansi Resmi 1 Tahun
-        
-        Spesifikasi:
-        Layar 1.8"
-        OS Nokia Series 30+
-        RAM 4MB
-        ROM 4MB
-        Dual SIM (Mini) GSM
-        Battery 800mAh (Removable)
-        
-        Semua Retur / Pengembalian Barang Harus Sesuai dengan yang dikirim (Dus, Imei, Aksesoris, dll)
-        Dan dengan kondisi baru seperti dikirim (tidak boleh ada kesalahan pengguna seperti kena air, terjatuh, baret, lecet, dll)`
-    },
-    {
         id: "10",
         name: "Barbel Melayang",
         image: "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/6/22/3990375/3990375_1ec3e734-97c5-4b3b-a376-741e43d6f52e_1000_1000",

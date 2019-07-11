@@ -1,0 +1,47 @@
+.pay-header{
+    border-bottom: 2px solid rgb(192, 192, 192);
+    height: 50px;
+    margin-top: 10px;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+}
+.payment{
+    border: 1px solid rgb(192, 192, 192);
+    margin-left: 150px;
+    border-radius: 6px;
+    width: 520px;
+    height: 380px;
+    position: absolute;
+    font-size: 12pt;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+}
+
+.ringkasan{
+    border: 1px solid rgb(192, 192, 192);
+    padding: 0px 20px 20px 20px;
+    background-color: white;
+    font-size: 12pt;
+    border-radius: 6px;
+    margin-left: 740px;
+    width: 320px;
+    height: 380px;
+}
+
+.ringkasan button {
+    width: 300px;
+    border-radius: 6px;
+    font-size: 12pt;
+    color: white;
+    border:0px transparent;
+    background-color: #F99401;
+    height: 40px;
+}
+
+.ring-total{
+    margin-top: 20px;
+    background-color: white;
+}

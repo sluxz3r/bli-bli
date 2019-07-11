@@ -116,7 +116,6 @@
 }
 
 .prod-fitur{
-    border: 1px solid black;
     width: 425px;
     height: 280px;
     padding: 5px;
@@ -173,6 +172,9 @@
     margin-right: 25px; 
     height: 40px;
     width: 170px;
+}
+.inpud{
+    text-align: center;
 }
 
 .prod-lihat{

@@ -6,7 +6,6 @@ import '../assets/category.css';
 class Category extends Component{
     render(){
         return(
-            
             <div className="category">
                 <div className="cat-header">
                     <span>Kategori</span>
