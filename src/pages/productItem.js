@@ -13,27 +13,27 @@ class productItem extends Component {
         this.id = props.match.params.id;
         this.pata = Data.find(item => item.id === this.id)
         this.state = {
-            value : 1
+            value: 1
         }
     }
 
-    plus=() => {
-        let currentValue=this.state.value
-        this.setState({value : currentValue + 1})
+    plus = () => {
+        let currentValue = this.state.value
+        this.setState({ value: currentValue + 1 })
         document.getElementById("qty").value = this.state.value;
     }
 
-    minus=() => {
-        let currentValue=this.state.value
-        this.setState({value : currentValue - 1})
+    minus = () => {
+        let currentValue = this.state.value
+        this.setState({ value: currentValue - 1 })
         document.getElementById("qty").value = this.state.value;
     }
 
     render() {
         let total = this.pata.price
-        let	reverse = total.toString().split('').reverse().join(''),
-	        ribua 	= reverse.match(/\d{1,3}/g);
-        let ribuan	= ribua.join('.').split('').reverse().join('');
+        let reverse = total.toString().split('').reverse().join(''),
+            ribua = reverse.match(/\d{1,3}/g);
+        let ribuan = ribua.join('.').split('').reverse().join('');
         return (
             <div className="body">
                 <div className="body1">
@@ -43,7 +43,7 @@ class productItem extends Component {
                         </Link>
                         <img src="https://www.static-src.com/4.39.0-12/resources/images/assets/breadcrumb-arrow.png" />
                         <Link className="home" to={`/category/${this.pata.category}`}  >
-                        <a className="home">{this.pata.category}</a>
+                            <a className="home">{this.pata.category}</a>
                         </Link>
                     </div>
 
@@ -63,13 +63,16 @@ class productItem extends Component {
                                 <p>Metode Pengiriman</p>
                             </div>
                             <div className="prod-div3">
-                                <p style={{color:"#f7931E"}}>Rp {ribuan}</p>
+                                <p style={{ color: "#f7931E" }}>Rp {ribuan}</p>
                                 <p>+ 35 poin Blibli Rewards</p>
                                 <p>Cicilan tanpa kartu kredit</p>
                                 <p>Kombinasi</p>
                                 <p>
-                                    <label><input type="radio"></input>Pengiriman Langsung<br/>
-                                    <input type="radio"></input>Bayar di Tempat</label>
+                                    <input id="2" type="radio" name="rad" />
+                                    <label for="2">Pengiriman Langsung</label>
+                                    <br />
+                                    <input id="2" type="radio" name="rad" />
+                                    <label for="2">Bayar di Tempat</label>
                                 </p>
                             </div>
                         </div>
@@ -81,22 +84,22 @@ class productItem extends Component {
                         </div>
 
                         <div className="prod-detail">
-                            <div style={{backgroundColor:"white"}}>
+                            <div style={{ backgroundColor: "white" }}>
                                 <span className="jumlah">Jumlah</span>
                                 <span className="input-jumlah">
-                                        <button onClick={() => this.minus()} className="myButton" type="submit" >-</button>
-                                        <input className="inpud" id="qty" />
-                                        <button onClick={() => this.plus()} className="myButton" type="submit">+</button>
+                                    <button onClick={() => this.minus()} className="myButton" type="submit" >-</button>
+                                    <input className="inpud" id="qty" />
+                                    <button onClick={() => this.plus()} className="myButton" type="submit">+</button>
                                 </span>
                             </div>
                             <div className="button-pay">
-                            <Link to={{pathname:`/cart/${this.pata.id}`,qty:this.state.value, id:this.pata.id }}  >
-                                <button style={{backgroundColor:"#F99401"}}>BELI SEKARANG</button>
-                            </Link>
-                                <button style={{backgroundColor:"#0095DC"}}>TAMBAH KE BAG</button>
+                                <Link to={{ pathname: `/cart/${this.pata.id}`, qty: this.state.value, id: this.pata.id }}  >
+                                    <button style={{ backgroundColor: "#F99401" }}>BELI SEKARANG</button>
+                                </Link>
+                                <button style={{ backgroundColor: "#0095DC" }}>TAMBAH KE BAG</button>
                             </div>
-                            <div style={{marginTop:"20px", paddingBottom:"20px"}}>
-                                <img style={{width:"480px"}} src="https://cdn1.imggmi.com/uploads/2019/7/10/37f7bcad9d3b440f492671e4ecdb346b-full.png" />
+                            <div style={{ marginTop: "20px", paddingBottom: "20px" }}>
+                                <img style={{ width: "480px" }} src="https://cdn1.imggmi.com/uploads/2019/7/10/37f7bcad9d3b440f492671e4ecdb346b-full.png" />
                             </div>
                         </div>
 
@@ -115,7 +118,7 @@ class productItem extends Component {
                                 <div>
                                     <ul>
                                         <li>
-                                        15 hari Pengembalian Produk <a>info</a>
+                                            15 hari Pengembalian Produk <a>info</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -138,21 +141,21 @@ class productItem extends Component {
                         <Listproduk />
                     </div>
                     <div className="prod-des">
-                    <div>
-                <div className="des-prod">
-                    <span style={{color:"white"}}>Deskripsi</span>
-                    <span>Spesifikasi</span>
-                    <span>Diskusi</span>
-                    <span>Ulasan</span>
-                </div>
-                <div className="des-kiri">
-                    <h4>{this.pata.name}</h4>
-                    <p className="des-p">{this.pata.description}</p>
-                </div>
-                <div>
-                    
-                </div>
-            </div>
+                        <div>
+                            <div className="des-prod">
+                                <span style={{ color: "white" }}>Deskripsi</span>
+                                <span>Spesifikasi</span>
+                                <span>Diskusi</span>
+                                <span>Ulasan</span>
+                            </div>
+                            <div className="des-kiri">
+                                <h4>{this.pata.name}</h4>
+                                <p className="des-p">{this.pata.description}</p>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

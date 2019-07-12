@@ -12,6 +12,7 @@
   font-size: 12x;
   display:inline-block;
   margin-left: 1px;
+  margin-top: 5px
 }
 .hp{
 
@@ -25,6 +26,7 @@
     margin-right: 40px;
     text-decoration: none;
     color: #7a7a7a!important;
+    font-size: 12px;
 }
 
 .bantuan-ul {
