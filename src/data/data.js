@@ -74,24 +74,6 @@ const Data= [
         description: "Masih di tahun yang sama 2019, Realme kembali memperkenalkan debut smartphone teranyar mereka yaitu Realme 3 Pro. Realme yang dikenal sebagai sub-brand dari OPPO dengan bangga menghadirkan smartphone yang ditenagai dapur pacu yang menjanjikan. Dengan berbekal prosesor Snapdragon tentu harapannya Realme 3 Pro dapat memberikan kecepatan yang maksimal. Dan menariknya disebutkan kecepatan chip octa-core Realme 3 Pro dapat memberikan kinerja hingga 2.2 GHz. Sementara untuk memperlancar pengalaman grafis yang mulus maka dititipkan juga mesin multi-core AI yang disandingkan bersamaan dengan GPU Adreno 616."
     },
     {
-        id: "5",
-        name: "Redmi Note 7",
-        image: "https://d2giyh01gjb6fi.cloudfront.net/default/0002/83/thumb_182868_default_big.jpeg",
-        img1:"https://d2giyh01gjb6fi.cloudfront.net/default/0002/83/thumb_182868_default_big.jpeg",
-        img2:"https://images-na.ssl-images-amazon.com/images/I/51SEU5IoKIL.jpg",
-        img3:"https://assets.mspimages.in/wp-content/uploads/2019/01/Xiaomi-Redmi-Note-7-1.jpg",
-        category: "Handphone",         
-        price: 2277000,
-        features: [
-            'Display : 6.3 Inch, 1080 x 2340 pixels',
-            'Prosessor : Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)',
-            'Main camera Dual : 48 MP & 5 MP serta selfie camera : 13 MP',
-            'OS : Android 9.0 (Pie)',
-            'Baterai : 4000 mAh'
-        ],
-        description: "Xiaomi resmi memperkenalkan smartphone entry-level terbarunya yaitu Redmi Note 7. Dengan membawa nuasa yang lebih glamour smartphone ini juga turut dipersenjatai spec yang terbilang mumpuni. Sebut saja dibagian jantung pacu ponsel telah ditenagai dengan CPU octa core yang diduetkan dengan GPU Adreno 512. Begitupun dengan besaran memori RAM yang dititipkan antara lain 4GB / 6GB guna mendukung aktivitas multitasking dengan lancar. "
-    },
-    {
         id: "7",
         name: "Kamera Analog",
         image: "https://cdn.idntimes.com/content-images/community/2018/04/7976332159-137e970c8c-b-844f7d54e4e704e1739da52fba329f3d_600x400.jpg",
