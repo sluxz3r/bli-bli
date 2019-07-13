@@ -1,5 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+> # Blibli Project 
+> ## Deployment Link : [Blibli Project](https://nervous-kowalevski-d3cb31.netlify.com/) <br> created by :
+> - Arie Azhari
+> - Bima Ketut Ramuna Putra
+> - Aulia Rahmat
+
+## Instalation Guide
+
+### `cloning`
+
+clone from  our [Github](https://github.com/sluxz3r/bli-bli.git)
+
+### `npm install`
+
+run npm install in your terminal
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,3 +82,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+z
