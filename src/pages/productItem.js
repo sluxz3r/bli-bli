@@ -30,11 +30,15 @@ class productItem extends Component {
         document.getElementById("qty").value = this.state.value;
     }
 
+    
+
     render() {
-        let total = this.pata.price
-        let reverse = total.toString().split('').reverse().join(''),
-            ribua = reverse.match(/\d{1,3}/g);
-        let ribuan = ribua.join('.').split('').reverse().join('');
+        function rubah(angka){
+            var reverse = angka.toString().split('').reverse().join(''),
+            ribuan = reverse.match(/\d{1,3}/g);
+            ribuan = ribuan.join('.').split('').reverse().join('');
+            return ribuan;
+          }
         return (
             <div className="body">
                 <div className="body1">
@@ -64,7 +68,7 @@ class productItem extends Component {
                                 <p>Metode Pengiriman</p>
                             </div>
                             <div className="prod-div3">
-                                <p style={{ color: "#f7931E" }}>Rp {ribuan}</p>
+                                <p style={{ color: "#f7931E" }}>Rp {rubah(this.pata.price)}</p>
                                 <p>+ 35 poin Blibli Rewards</p>
                                 <p>Cicilan tanpa kartu kredit</p>
                                 <p>Kombinasi</p>

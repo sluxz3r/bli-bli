@@ -4,11 +4,12 @@ import '../assets/payment.css';
 class Payment extends Component {
     render(){
         window.scrollTo(0, 0);
-        let total = this.props.location.total
-        let	reverse = total.toString().split('').reverse().join(''),
-            ribua 	= reverse.match(/\d{1,3}/g);
-            
-	    let ribuan	= ribua.join('.').split('').reverse().join('');
+        function rubah(angka){
+            var reverse = angka.toString().split('').reverse().join(''),
+            ribuan = reverse.match(/\d{1,3}/g);
+            ribuan = ribuan.join('.').split('').reverse().join('');
+            return ribuan;
+          }
         
         return(
             <div className="body">
@@ -38,7 +39,7 @@ class Payment extends Component {
                     <button> &#9883; Bayar Sekarang</button>
                     <div className="ring-total">
                         <span>Total Belanja</span>
-                        <span style={{paddingLeft:'120px'}}>Rp {ribuan}</span>
+                        <span style={{paddingLeft:'120px'}}>Rp {rubah(this.props.location.total)}</span>
                         <h3>HARAP DI BAYAR!!!</h3>
                         <img style={{width:'220px', paddingLeft:'45px'}} src="https://cdn-images-1.medium.com/max/1200/1*7ugSMISUo8vYf9ILG6VmuQ.png" />
                     </div>

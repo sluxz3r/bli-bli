@@ -4,53 +4,40 @@ import Data from '../data/data';
 import '../assets/pageCarts.css';
 
 
-
-
-class Cart extends Component{
+class TotalCart extends Component{
     constructor(props) {
         super(props);
-        let qty = this.props.location.qty - 1;
-        this.id = props.match.params.id;
-        this.pata = Data.find(item => item.id === this.id)
+        let qty = this.props.location.qty - 1; 
+        let price = this.props.location.price,
+            image = this.props.location.image,
+            name = this.props.location.name;
         this.state = {
-            total: qty * this.pata.price
+                total: qty * price,
+                act:0,
+                index:'',
+                newData:[]
         }
-       
+
+        let newData = this.state.newData
+        if (this.state.act === 0) {
+            let data = {
+                qty, price, image, name
+            }
+            newData.push(data);
+        }
+        this.setState({
+            newData:newData,
+            act:0
+        }) 
+        console.log(newData)
     }
-    text=(qty)=> {
-        if (isNaN(qty)){ qty = 0;
-        return qty + 1;
-      } else {
-        return qty;
-      }
-    };
 
-   
-    tex=(total)=> {
-        if (isNaN(total)){
-        return total = this.pata.price;
-      } else {
-        return total;
-      }
-    };   
+  
     render(){
-        window.scrollTo(0, 0);
-        let qty = this.props.location.qty - 1;
-
-        let total = this.tex(this.state.total)
-        let	reverse = total.toString().split('').reverse().join(''),
-	        ribua 	= reverse.match(/\d{1,3}/g);
-        let ribuan	= ribua.join('.').split('').reverse().join('');
-        
-        function rubah(angka){
-            var reverse = angka.toString().split('').reverse().join(''),
-            ribuan = reverse.match(/\d{1,3}/g);
-            ribuan = ribuan.join('.').split('').reverse().join('');
-            return ribuan;
-          }
-
+        let data = this.state.newData;
         return(
             <div className="body">
+                 
                 <div style={{marginTop:"10px", width:"1230px", backgroundColor:"white"}}>
                 <Link to='/'  >
                     <p style={{fontSize:"14pt", color:"#0095DA", position:"absolute", marginLeft:"20px"}}>&#8249; Belanja Lagi</p>
@@ -59,20 +46,25 @@ class Cart extends Component{
                 </div>
                 <div style={{marginTop:"10px",padding: "20px", width:"1200px", backgroundColor:"white"}}>
                     <th style={{borderBottom:"2px solid #f1f1f1f8", paddingBottom:"10px", width:"1180px"}}>
-                        <td style={{paddingRight:"500px"}}>Pilih Semua Produk</td>
-                        <td style={{paddingRight:"300px", color:"grey"}}>Harga</td>
+                        <td style={{paddingRight:"280px", paddingLeft:'200px'}}>Pilih Semua Produk</td>
+                        <td style={{paddingRight:"280px", color:"grey"}}>Harga</td>
                         <td style={{color:"grey"}}>Jumlah</td>
                         <td></td>
                     </th><br />
+
+                    {data.map((data, i) =>
                     <th style={{borderBottom:"2px solid #f1f1f1f8", paddingBottom:"10px",height:"100px", width:"1180px"}}>
                         <td style={{width:"600px"}}>
-                            <img style={{position:"absolute", width:'90px', height:'90px'}} src={this.pata.img1} />
-                            <span style={{paddingLeft:"150px", paddingRight:"50px"}}>{this.pata.name}</span>
+                            <img style={{position:"absolute", width:'90px', height:'90px'}} src={data.image}/>
+                            <span style={{paddingLeft:"150px", paddingRight:"50px"}}>{data.name}</span>
                         </td>
-                        <td style={{paddingRight:"300px", color:"#F37021"}}>Rp {rubah(this.pata.price)}</td>
-                        <td style={{paddingRight:"120px", color:"#F37021"}}>{this.text(qty)}</td>
+                        <td style={{paddingRight:"300px", color:"#F37021"}}>Rp{data.price}</td>
+                        <td style={{paddingRight:"120px", color:"#F37021"}}>
+                        {data.qty}
+                        </td>
                         <td>Hapus</td>
                     </th>
+                    )}
                 </div>
                 <div>
                     <div style={{position:"absolute"}}>
@@ -84,12 +76,12 @@ class Cart extends Component{
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAAiCAMAAADWIlHSAAAAUVBMVEX///+qq6txbG7s8fbc3Ny4t7mhosKgoJ9QUFDF1eR0krLj5OTFxMWQkJDQ0NBNdZe6xdyPp8qpuNAoUo3a6/XT3uttfbuBgIHr7OsKPXdTir9C6A7KAAABVElEQVQ4y+2S607DMAyFHce5Oklz2QV4/wfFHtNgTBrS4B87ahK77Rf3uIGnnvpBfcLceev93vtd341uB/REBMnTTD353r3M+tT7a9SutV9r+VfvtzW31SGvsa1tQD6k8ZoOmypvaTv07cBXbJpz+JzmW06yjJRlzmOXO2iQht/DmHlKrNcL/J0s2UfRGmOsn2mIeAktQDN30ILlxWG45FGJC0v3UDBahmS0EApYF6uTm8GdWD6hthUWZ/qe5a/+CNFp7rDW2GzFYwDEgFVZQ4qaRsbaoLtxY/gKV4xVaAZCKROd2LDQogVjilFXDYAaOAJywLeej9qz45k1KIoERoAC4IyoKOj4G+c+TNcKcGYdEjHrN+vQgiq1ANdyMTSti5XNmeVouNTLP9Jes/DFtNtGRxS/DvHEolMPURdz6iEJbyQDK3s9KnaPklQM/+bUP/VP9A4SvwzyTzXTVQAAAABJRU5ErkJggg==" />
 
                     </div>
-                    <div style={{height:"73px", padding:'15px', width:"387px", marginLeft:"700px", backgroundColor:'white'}}>
-                        <div style={{position:'absolute',width:"180px", height:'69px',backgroundColor:'white'}}>
+                    <div style={{height:"73px", padding:'5px', width:"387px", marginLeft:"700px"}}>
+                        <div style={{position:'absolute',width:"180px", height:'69px'}}>
                             <p style={{margin:'0px'}}>Total Belanja</p>
-                            <p style={{margin:'0px',fontWeight:'bold', fontSize:'16pt' , color:"#F37021"}}>Rp {rubah(this.tex(this.state.total))}</p>
+                            <p style={{margin:'0px',fontWeight:'bold', fontSize:'16pt' , color:"#F37021"}}>Rp</p>
                         </div>
-                        <Link to={{pathname:"/pay/", total:this.tex(this.state.total)}}  >
+                        <Link to={{pathname:"/pay/", total:this.state.total}}  >
                         <button style={{
                                         marginLeft:'190px', 
                                         height:'60px', 
@@ -108,4 +100,4 @@ class Cart extends Component{
     }
 }
 
-export default Cart;
+export default TotalCart;
