@@ -16,7 +16,7 @@ class productItem extends Component {
             value: 1
         }
     }
-
+    
     plus = () => {
         let currentValue = this.state.value
         this.setState({ value: currentValue + 1 })
@@ -25,6 +25,7 @@ class productItem extends Component {
 
     minus = () => {
         let currentValue = this.state.value
+        if(currentValue > 1)
         this.setState({ value: currentValue - 1 })
         document.getElementById("qty").value = this.state.value;
     }

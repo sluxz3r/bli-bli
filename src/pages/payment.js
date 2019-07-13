@@ -3,9 +3,11 @@ import '../assets/payment.css';
 
 class Payment extends Component {
     render(){
+        window.scrollTo(0, 0);
         let total = this.props.location.total
         let	reverse = total.toString().split('').reverse().join(''),
-	        ribua 	= reverse.match(/\d{1,3}/g);
+            ribua 	= reverse.match(/\d{1,3}/g);
+            
 	    let ribuan	= ribua.join('.').split('').reverse().join('');
         
         return(

@@ -34,6 +34,7 @@ class Cart extends Component{
       }
     };   
     render(){
+        window.scrollTo(0, 0);
         let qty = this.props.location.qty - 1;
 
         let total = this.tex(this.state.total)
